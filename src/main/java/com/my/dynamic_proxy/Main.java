@@ -10,7 +10,7 @@ import java.net.URLConnection;
 
 import static com.my.dynamic_proxy.HttpUtil.httpRequest;
 
-public class Demo01 {
+public class Main {
 
     /*
      * 注意:
