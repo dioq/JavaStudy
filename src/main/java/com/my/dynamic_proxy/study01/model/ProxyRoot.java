@@ -1,7 +1,7 @@
 /**
  * Copyright 2020 json.cn
  */
-package com.my.dynamic_proxy.model;
+package com.my.dynamic_proxy.study01.model;
 
 import java.util.List;
 

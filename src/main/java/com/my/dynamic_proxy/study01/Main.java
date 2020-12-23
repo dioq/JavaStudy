@@ -1,14 +1,14 @@
-package com.my.dynamic_proxy;
+package com.my.dynamic_proxy.study01;
 
 import com.google.gson.Gson;
-import com.my.dynamic_proxy.model.Obj;
-import com.my.dynamic_proxy.model.ProxyRoot;
+import com.my.dynamic_proxy.study01.model.Obj;
+import com.my.dynamic_proxy.study01.model.ProxyRoot;
 
 import java.io.BufferedInputStream;
 import java.net.URL;
 import java.net.URLConnection;
 
-import static com.my.dynamic_proxy.HttpUtil.httpRequest;
+import static com.my.dynamic_proxy.study01.HttpUtil.httpRequest;
 
 public class Main {
 

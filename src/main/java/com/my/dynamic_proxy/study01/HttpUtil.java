@@ -1,4 +1,4 @@
-package com.my.dynamic_proxy;
+package com.my.dynamic_proxy.study01;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

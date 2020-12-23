@@ -1,7 +1,7 @@
 /**
  * Copyright 2020 json.cn
  */
-package com.my.dynamic_proxy.model;
+package com.my.dynamic_proxy.study02.proxy.model;
 
 /**
  * Auto-generated: 2020-12-01 1:2:1
