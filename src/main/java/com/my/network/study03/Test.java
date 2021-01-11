@@ -9,13 +9,13 @@ public class Test {
 
     public static void main(String[] args) {
         SSLConfig.set(SSLWhichOne.JustTrustMe);
-        test.get_func();
-//        test.post_func();
+//        test.get_func();
+        test.post_func();
     }
 
     public void get_func() {
         String urlStr = "https://www.anant.club:8081/getssl";
-        String response = NetworkUtil.getInstance().doGet(urlStr);
+        String response = new NetworkUtil().doGet(urlStr);
         System.out.println("get_tls_func response:\n" + response);
     }
 
@@ -31,7 +31,7 @@ public class Test {
             e.printStackTrace();
         }
         String requestData = param_json.toString();
-        String response = NetworkUtil.getInstance().doPost(urlStr, requestData);
+        String response = new NetworkUtil().doPost(urlStr, requestData);
         System.out.println("post_tls_func response:\n" + response);
     }
 

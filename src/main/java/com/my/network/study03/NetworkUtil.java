@@ -12,12 +12,9 @@ import java.util.UUID;
 //http 和 https 都可以，能设置代理
 public class NetworkUtil {
 
-    //类初始化时，不初始化这个对象(延时加载，真正用的时候再创建)
-    private static NetworkUtil instance;
     private Proxy proxy = null;
 
-    //构造器私有化
-    private NetworkUtil() {
+    public NetworkUtil() {
     }
 
     //传Proxy, 当传Proxy.NO_PROXY时不走任何代理包括系统的。
@@ -31,14 +28,6 @@ public class NetworkUtil {
             int port2 = Integer.parseInt(port);
             proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress(ip, port2));
         }
-    }
-
-    //方法同步，调用效率低
-    public static synchronized NetworkUtil getInstance() {
-        if (instance == null) {
-            instance = new NetworkUtil();
-        }
-        return instance;
     }
 
     private synchronized HttpURLConnection configSSLAndProxy(String urlStr) throws IOException {

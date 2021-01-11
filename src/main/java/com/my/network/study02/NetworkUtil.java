@@ -19,19 +19,7 @@ import javax.net.ssl.HttpsURLConnection;
 //http 和 https 都可以，不能设置代理
 public class NetworkUtil {
 
-    //类初始化时，不初始化这个对象(延时加载，真正用的时候再创建)
-    private static NetworkUtil instance;
-
-    //构造器私有化
-    private NetworkUtil() {
-    }
-
-    //方法同步，调用效率低
-    public static synchronized NetworkUtil getInstance() {
-        if (instance == null) {
-            instance = new NetworkUtil();
-        }
-        return instance;
+    public NetworkUtil() {
     }
 
     /**

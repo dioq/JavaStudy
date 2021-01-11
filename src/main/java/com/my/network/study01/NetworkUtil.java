@@ -16,22 +16,27 @@ public class NetworkUtil {
 
     private Proxy proxy = null;
 
-    //不做任何设置,会走系统的代理
     public NetworkUtil() {
     }
 
-    //传Proxy, 当传Proxy.NO_PROXY时不走任何代理包括系统的
     public NetworkUtil(Proxy proxy) {
         this.proxy = proxy;
     }
 
-    //只传ip和port,只允许走指定代理地址
     public NetworkUtil(String ip, String port) {
         if (ip != null && port != null) {
             int port2 = Integer.parseInt(port);
             proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress(ip, port2));
         }
     }
+
+    /*
+     * url.openConnection(proxy);
+     * 1、参数为Proxy.NO_PROXY时不走任何代理包括系统的
+     * 2、参数为ip和port 初始化的Proxy时,只允许走指定代理地址
+     * url.openConnection()
+     * 如果不设置就走系统代理
+     * */
 
     /**
      * GET 请求
@@ -46,7 +51,7 @@ public class NetworkUtil {
             URL url = new URL(urlStr);
             if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
                 connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {
+            } else {// 如果不设置代理 会有系统代理
                 connection = (HttpURLConnection) url.openConnection();
             }
             connection.setConnectTimeout(connectTimeout);//连接最大时间
