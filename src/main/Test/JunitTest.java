@@ -16,4 +16,11 @@ public class JunitTest {
         headers.put("User-Agent", "Pixel 2L");
         System.out.println(headers.toString());
     }
+
+    @Test
+    public void test03() {
+        String qd_sg = String.format("865166028633454-8.10.0-%d-", System.currentTimeMillis());
+        System.out.println(qd_sg);
+    }
+
 }
