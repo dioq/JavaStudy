@@ -23,4 +23,11 @@ public class JunitTest {
         System.out.println(qd_sg);
     }
 
+    @Test
+    public void test04(){
+        while (true){
+            System.out.println("-----------------");
+            break;
+        }
+    }
 }
