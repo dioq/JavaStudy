@@ -7,6 +7,93 @@ import java.util.List;
 
 public class FileUtils {
 
+    /*
+     * 获取指定行数的数据
+     * */
+    public static String readLineByIndex(String path, int lineNumber) {
+        FileInputStream fis = null;
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+        String line = null;
+        try {
+            fis = new FileInputStream(path);
+            isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
+            br = new BufferedReader(isr);
+
+            line = br.readLine();
+            if (lineNumber < 0 || lineNumber > getTotalLines(path)) {
+                System.out.println("不在文件的行数范围之内。");
+                return null;
+            }
+            int num = 0;
+            while (line != null) {
+                if (lineNumber == ++num) {
+//                    System.out.println("line " + lineNumber + ": " + line);
+                    break;
+                }
+                line = br.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) {
+                    br.close();
+                }
+                if (isr != null) {
+                    isr.close();
+                }
+                if (fis != null) {
+                    fis.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return line;
+    }
+
+    // 文件内容的总行数
+    public static int getTotalLines(String path) {
+        FileInputStream fis = null;
+        InputStreamReader isr = null;
+        BufferedReader br = null;
+        LineNumberReader reader = null;
+        int lines = 0;
+        try {
+            fis = new FileInputStream(path);
+            isr = new InputStreamReader(fis, StandardCharsets.UTF_8);
+            br = new BufferedReader(isr);
+            reader = new LineNumberReader(br);
+            String s = reader.readLine();
+            while (s != null) {
+                lines++;
+                s = reader.readLine();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (reader != null) {
+                    reader.close();
+                }
+                if (br != null) {
+                    br.close();
+                }
+                if (isr != null) {
+                    isr.close();
+                }
+                if (fis != null) {
+                    fis.close();
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return lines;
+    }
+
+
     /**
      * 读取一个文本 一行一行读取
      *

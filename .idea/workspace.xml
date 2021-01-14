@@ -2,41 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/SerialTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/SocketClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/SocketServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/file_io/target.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/Test/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Test/JunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study01/SerialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study01/SerialTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/SerialTest2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/User1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/User2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Client01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study01/Client01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Client02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study02/Client02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Client03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study03/Client03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Client04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study04/Client04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Server01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study01/Server01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Server02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study02/Server02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Server03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study03/Server03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/Server04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/socket/study04/Server04.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/tcp/TCPClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study01/SerialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/my/Serializable/study01/SerialTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study02/SerialTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study02/User1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study02/User2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Client01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Client02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Client03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Client04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Server01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Server02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Server03.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/Server04.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/my/socket/tcp/TCPClient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/file_io/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/file_io/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/file_io/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/file_io/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study03/SocketClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/my/Serializable/study03/SocketClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/my/Serializable/study03/SocketServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/my/Serializable/study03/SocketServer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/my/file_io/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/my/file_io/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/my/file_io/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/my/file_io/Test.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/JunitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/JunitTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +55,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MD5_Crypto" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -105,13 +79,13 @@
       <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SocketClient">
-    <configuration name="Client04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.socket.study04.Client04" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.file_io.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.socket.study04.*" />
+          <option name="PATTERN" value="com.my.file_io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,65 +93,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.Serializable.study01.SerialTest" />
+    <configuration name="JunitTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.Serializable.study01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SerialTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.Serializable.study02.SerialTest" />
+    <configuration name="JunitTest.test05" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.Serializable.study02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test05" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.Serializable.study03.SocketClient" />
+    <configuration name="JunitTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.Serializable.study03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test06" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SocketServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.Serializable.study03.SocketServer" />
+    <configuration name="JunitTest.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.my.Serializable.study03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="JunitTest" />
+      <option name="METHOD_NAME" value="test07" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SocketClient" />
-        <item itemvalue="Application.SocketServer" />
-        <item itemvalue="Application.SerialTest" />
-        <item itemvalue="Application.SerialTest (1)" />
-        <item itemvalue="Application.Client04" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.JunitTest.test07" />
+        <item itemvalue="JUnit.JunitTest.test06" />
+        <item itemvalue="JUnit.JunitTest.test05" />
+        <item itemvalue="JUnit.JunitTest.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +174,8 @@
       <workItem from="1610381522596" duration="1615000" />
       <workItem from="1610415711193" duration="5005000" />
       <workItem from="1610502039944" duration="11170000" />
+      <workItem from="1610547886818" duration="3151000" />
+      <workItem from="1610558774207" duration="8110000" />
     </task>
     <servers />
   </component>
@@ -231,26 +195,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="848" y="177" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1610513468018" />
-    <state x="633" y="182" key="FileChooserDialogImpl" timestamp="1610356112091">
+    <state x="633" y="182" key="FileChooserDialogImpl" timestamp="1610549084232">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="633" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610356112091" />
-    <state width="1338" height="207" key="GridCell.Tab.0.bottom" timestamp="1610519603137">
+    <state x="633" y="182" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1610549084232" />
+    <state width="1338" height="207" key="GridCell.Tab.0.bottom" timestamp="1610611258362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610519603137" />
-    <state width="1338" height="207" key="GridCell.Tab.0.center" timestamp="1610519603137">
+    <state width="1338" height="207" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1610611258362" />
+    <state width="1338" height="207" key="GridCell.Tab.0.center" timestamp="1610611258362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610519603137" />
-    <state width="1338" height="207" key="GridCell.Tab.0.left" timestamp="1610519603137">
+    <state width="1338" height="207" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1610611258362" />
+    <state width="1338" height="207" key="GridCell.Tab.0.left" timestamp="1610611258362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610519603137" />
-    <state width="1338" height="207" key="GridCell.Tab.0.right" timestamp="1610519603137">
+    <state width="1338" height="207" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1610611258362" />
+    <state width="1338" height="207" key="GridCell.Tab.0.right" timestamp="1610611258362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1338" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610519603137" />
+    <state width="1338" height="207" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1610611258362" />
     <state x="388" y="70" key="Maven.ArtifactSearchDialog" timestamp="1605651525313">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -263,9 +227,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="182" y="59" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1610355812834" />
+    <state x="504" y="173" key="extract.method.dialog" timestamp="1610582817257">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="504" y="173" key="extract.method.dialog/0.0.1536.824@0.0.1536.824" timestamp="1610582817257" />
     <state x="172" y="108" key="new project wizard" timestamp="1606758091694">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="172" y="108" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1606758091694" />
+    <state x="592" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1610569399804">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="592" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1610569399804" />
   </component>
 </project>
