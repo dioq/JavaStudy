@@ -16,7 +16,10 @@ import java.util.UUID;
 
 import javax.net.ssl.HttpsURLConnection;
 
-//http 和 https 都可以，不能设置代理
+/*
+ * http 和 https
+ * 不能设置代理
+ * */
 public class NetworkUtil {
 
     public NetworkUtil() {
@@ -52,8 +55,8 @@ public class NetworkUtil {
                     response.append(line);
                 }
                 result = response.toString();
-            } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+            } else {//网络请求错误时
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -110,7 +113,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -168,7 +171,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -278,7 +281,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -374,7 +377,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();

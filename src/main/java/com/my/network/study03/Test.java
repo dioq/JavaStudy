@@ -8,9 +8,9 @@ public class Test {
     private static Test test = new Test();
 
     public static void main(String[] args) {
-        SSLConfig.set(SSLWhichOne.JustTrustMe);
-//        test.get_func();
-        test.post_func();
+        SSLConfig.set(SSLTrustWhich.TrustAll);
+        test.get_func();
+//        test.post_func();
     }
 
     public void get_func() {

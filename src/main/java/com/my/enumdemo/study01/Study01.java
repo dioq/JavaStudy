@@ -1,4 +1,4 @@
-package com.my.enmu;
+package com.my.enumdemo.study01;
 
 enum Signal {
     //定义一个枚举类型

@@ -1,6 +1,6 @@
-package com.my.enmu;
+package com.my.enumdemo.study02;
 
-public class Study02 {
+public class Test01 {
     public static void main(String[] args) {
         allValues();
     }

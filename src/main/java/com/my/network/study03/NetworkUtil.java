@@ -9,7 +9,10 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.UUID;
 
-//http 和 https 都可以，能设置代理
+/*
+ * http 和 https
+ * 能设置代理 ip 和 port
+ * */
 public class NetworkUtil {
 
     private Proxy proxy = null;
@@ -17,7 +20,7 @@ public class NetworkUtil {
     public NetworkUtil() {
     }
 
-    //传Proxy, 当传Proxy.NO_PROXY时不走任何代理包括系统的。
+    //传Proxy, 当传Proxy.NO_PROXY时不走任何代理包括设置的系统代理
     public NetworkUtil(Proxy proxy) {
         this.proxy = proxy;
     }
@@ -30,6 +33,14 @@ public class NetworkUtil {
         }
     }
 
+    /*
+     * url.openConnection(proxy);
+     * 1、参数为Proxy.NO_PROXY时不走任何代理包括设置的系统代理
+     * 2、参数为ip和port 初始化的Proxy时,只允许走指定代理地址
+     * url.openConnection()
+     * 如果不设置就走系统代理
+     * */
+    //统一 判断是否要加SSL协议、代理地址
     private synchronized HttpURLConnection configSSLAndProxy(String urlStr) throws IOException {
         HttpURLConnection connection = null;
         URL url = new URL(urlStr);
@@ -84,7 +95,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -134,7 +145,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -183,7 +194,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -282,7 +293,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -368,7 +379,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();

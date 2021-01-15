@@ -28,8 +28,8 @@ public class Main {
         // 如果不设置，只要代理IP和代理端口正确,此项不设置也可以
         System.getProperties().setProperty("proxySet", "true");
 
-        String ip = "121.12.227.43";
-        String port = "15989";
+        String ip = "119.183.211.194";
+        String port = "9020";
         System.getProperties().setProperty("http.proxyHost", ip);
         System.getProperties().setProperty("http.proxyPort", port);
 

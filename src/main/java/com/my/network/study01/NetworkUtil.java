@@ -8,35 +8,18 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.UUID;
 
-//http 可以设置代理
+/*
+ * http
+ * 仅支持http 不能设置代理ip和port
+ * */
 public class NetworkUtil {
 
     private int connectTimeout = 100 * 1000;
     private int readTimeout = 100 * 1000;
 
-    private Proxy proxy = null;
-
     public NetworkUtil() {
     }
 
-    public NetworkUtil(Proxy proxy) {
-        this.proxy = proxy;
-    }
-
-    public NetworkUtil(String ip, String port) {
-        if (ip != null && port != null) {
-            int port2 = Integer.parseInt(port);
-            proxy = new Proxy(Proxy.Type.HTTP, new InetSocketAddress(ip, port2));
-        }
-    }
-
-    /*
-     * url.openConnection(proxy);
-     * 1、参数为Proxy.NO_PROXY时不走任何代理包括系统的
-     * 2、参数为ip和port 初始化的Proxy时,只允许走指定代理地址
-     * url.openConnection()
-     * 如果不设置就走系统代理
-     * */
 
     /**
      * GET 请求
@@ -49,11 +32,7 @@ public class NetworkUtil {
         String result = null;
         try {
             URL url = new URL(urlStr);
-            if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
-                connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {// 如果不设置代理 会有系统代理
-                connection = (HttpURLConnection) url.openConnection();
-            }
+            connection = (HttpURLConnection) url.openConnection();
             connection.setConnectTimeout(connectTimeout);//连接最大时间
             connection.setReadTimeout(readTimeout);//读取最大时间
             connection.setRequestMethod("GET");
@@ -68,7 +47,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -99,11 +78,7 @@ public class NetworkUtil {
         String result = null;
         try {
             URL url = new URL(urlStr);
-            if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
-                connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {
-                connection = (HttpURLConnection) url.openConnection();
-            }
+            connection = (HttpURLConnection) url.openConnection();
             connection.setConnectTimeout(connectTimeout);//连接最大时间
             connection.setReadTimeout(readTimeout);//读取最大时间
             connection.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
@@ -124,7 +99,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -155,11 +130,7 @@ public class NetworkUtil {
         String result = null;
         try {
             URL url = new URL(urlStr);
-            if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
-                connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {
-                connection = (HttpURLConnection) url.openConnection();
-            }
+            connection = (HttpURLConnection) url.openConnection();
             connection.setUseCaches(false);
             connection.setRequestMethod("POST");
             connection.setRequestProperty("accept", "*/*");
@@ -181,7 +152,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -236,11 +207,7 @@ public class NetworkUtil {
         BufferedReader reader = null;
         try {
             URL url = new URL(urlStr);
-            if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
-                connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {
-                connection = (HttpURLConnection) url.openConnection();
-            }
+            connection = (HttpURLConnection) url.openConnection();
             connection.setChunkedStreamingMode(1024 * 1024);
             connection.setRequestMethod("POST");
             connection.setRequestProperty("connection", "Keep-Alive");
@@ -290,7 +257,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -345,11 +312,7 @@ public class NetworkUtil {
         String result = null;
         try {
             URL url = new URL(urlStr);
-            if (proxy != null) {//如果proxy不为空就设置proxy,否则不做处理
-                connection = (HttpURLConnection) url.openConnection(proxy);
-            } else {
-                connection = (HttpURLConnection) url.openConnection();
-            }
+            connection = (HttpURLConnection) url.openConnection();
             connection.setChunkedStreamingMode(1024 * 1024);
             connection.setRequestMethod("POST");
             connection.setRequestProperty("connection", "Keep-Alive");
@@ -385,7 +348,7 @@ public class NetworkUtil {
                 }
                 result = response.toString();
             } else {
-                result = "http is failed.  " + connection.getResponseMessage();
+                result = "network is failed.  " + connection.getResponseMessage();
             }
         } catch (IOException e) {
             e.printStackTrace();

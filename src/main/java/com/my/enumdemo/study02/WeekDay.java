@@ -1,4 +1,4 @@
-package com.my.enmu;
+package com.my.enumdemo.study02;
 
 //创建了一个枚举类型 WeekDay，而且在该类型中添加了自定义的方法
 public enum WeekDay {

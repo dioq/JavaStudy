@@ -9,17 +9,12 @@ import java.security.cert.CertificateException;
 import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 
-enum SSLWhichOne {
-    TrustAll,//任信所有证书
-    JustTrustMe//只信任自己服务器的证书
-}
-
 public class SSLConfig {
 
     //服务器绑定的域名
     private static String host = "www.anant.club";
 
-    public static void set(SSLWhichOne type) {
+    public static void set(SSLTrustWhich type) {
         SSLSocketFactory sslSocketFactory = null;
         switch (type) {
             case TrustAll:
@@ -42,7 +37,7 @@ public class SSLConfig {
         });
     }
 
-    // 信任所有证书，不建议这么操作
+    // 信任所有证书
     private static synchronized SSLSocketFactory getDefaultSSLSocketFactory() {
         try {
             SSLContext sslContext = SSLContext.getInstance("TLS");
@@ -72,7 +67,7 @@ public class SSLConfig {
         try {
             // 生成 TrustManagerFactory
             CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
-            FileInputStream inputStream = new FileInputStream("src/main/java/com/my/network/study03/crt/cert.pem");//这里导入SSL证书文件
+            FileInputStream inputStream = new FileInputStream("src/main/java/com/my/network/study02/crt/cert.pem");//这里导入SSL证书文件
             Certificate ca = certificateFactory.generateCertificate(inputStream);
             KeyStore keystore = KeyStore.getInstance(KeyStore.getDefaultType());
             keystore.load(null, null);

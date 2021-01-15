@@ -5,22 +5,19 @@ import org.json.JSONObject;
 
 public class Test {
 
-    private static Test test = new Test();
-
     public static void main(String[] args) {
-        SSLConfig.set(SSLWhichOne.JustTrustMe);
-//        test.get_func();
-        test.post_func();
-
+        SSLConfig.set(SSLTrustWhich.JustTrustMe);
+//        get_func();
+        post_func();
     }
 
-    public void get_func() {
+    public static void get_func() {
         String urlStr = "https://www.anant.club:8081/getssl";
         String response = new NetworkUtil().doGet(urlStr);
         System.out.println("get_tls_func response:\n" + response);
     }
 
-    public void post_func() {
+    public static void post_func() {
         String urlStr = "https://www.anant.club:8081/postssl";
         JSONObject param_json = new JSONObject();
         try {
