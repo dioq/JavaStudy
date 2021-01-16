@@ -1,7 +1,20 @@
+import com.sun.org.slf4j.internal.Logger;
+import com.sun.org.slf4j.internal.LoggerFactory;
 import org.junit.jupiter.api.Test;
 
+import javax.crypto.BadPaddingException;
+import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 import java.io.UnsupportedEncodingException;
+import java.math.BigInteger;
 import java.net.URLEncoder;
+import java.security.InvalidKeyException;
+import java.security.KeyFactory;
+import java.security.NoSuchAlgorithmException;
+import java.security.PrivateKey;
+import java.security.spec.InvalidKeySpecException;
+import java.security.spec.RSAPrivateKeySpec;
 import java.util.Base64;
 import java.util.HashMap;
 import java.util.Map;
@@ -70,5 +83,48 @@ public class JunitTest {
             e.printStackTrace();
         }
         System.out.println(t2);
+    }
+
+    @Test
+    public void test08() {
+        Logger logger = LoggerFactory.getLogger(Object.class);
+        logger.error("123");
+    }
+
+    @Test
+    public void test09() {
+//        String tt = "1213131";
+//        new String(Base64.getEncoder().encode(instance.doFinal(bytes)));
+        String result = m7333a("20160122sdf", new BigInteger(mo15568g()), new BigInteger("65537"));
+        System.out.println(result);
+    }
+
+    public String m8057a(byte[] bArr) {
+        final char[] f6164a = "0123456789ABCDEF".toCharArray();
+        char[] cArr = new char[(bArr.length * 2)];
+        for (int i = 0; i < bArr.length; i++) {
+            int b = bArr[i] & 255;
+            cArr[i * 2] = f6164a[b >>> 4];
+            cArr[(i * 2) + 1] = f6164a[b & 15];
+        }
+        return new String(cArr);
+    }
+
+    public String mo15568g() {
+        return "7030275091430684880455197983898536510502970284707709211601320194624399535289472259282643248491148705072503555764283431685757559494709977423553831916356709";
+    }
+
+    public static String m7333a(String str, BigInteger bigInteger, BigInteger bigInteger2) {
+        try {
+            byte[] bytes = str.getBytes("UTF-8");
+            PrivateKey generatePrivate = KeyFactory.getInstance("RSA").generatePrivate(new RSAPrivateKeySpec(bigInteger, bigInteger2));
+            Cipher instance = Cipher.getInstance("RSA/ECB/NoPadding");
+            instance.init(1, generatePrivate);
+            return new String(Base64.getEncoder().encode(instance.doFinal(bytes)));
+//            return new String(Base64.encode(instance.doFinal(bytes), 2), "UTF-8");
+        } catch (NoSuchAlgorithmException | InvalidKeyException | NoSuchPaddingException | BadPaddingException | UnsupportedEncodingException | InvalidKeySpecException | IllegalBlockSizeException | ArrayIndexOutOfBoundsException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 }

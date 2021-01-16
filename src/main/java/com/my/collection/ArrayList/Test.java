@@ -1,10 +1,10 @@
-package com.my.collections;
+package com.my.collection.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-public class Study01 {
+public class Test {
     public static void main(String[] args) {
         ArrayList<String> arrayList = new ArrayList();
         arrayList.add("g");

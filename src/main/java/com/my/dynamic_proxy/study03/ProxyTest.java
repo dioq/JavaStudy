@@ -19,12 +19,9 @@ public class ProxyTest {
         // JDK 8u111版本后，目标页面为HTTPS协议，启用proxy用户密码鉴权
         System.setProperty("jdk.http.auth.tunneling.disabledSchemes", "");
 
-        //String targetUrl = "http://proxy.abuyun.com/switch-ip";
-        //String targetUrl = "http://proxy.abuyun.com/current-ip";
-
         // 代理服务器
-        String proxyServer = "http-pro.abuyun.com";
-        int proxyPort = 9010;
+        String proxyServer = "http-dyn.abuyun.com";
+        int proxyPort = 9020;
 
         // 代理隧道验证信息
         String proxyUser = "HW5RE145V8V4756D";
@@ -42,8 +39,6 @@ public class ProxyTest {
 
             // 设置通过代理访问目标页面
             HttpURLConnection connection = (HttpURLConnection) url.openConnection(proxy);
-            // 设置IP切换头
-            connection.setRequestProperty("Proxy-Switch-Ip", "yes");
 
             // 解析返回数据
             byte[] response = readStream(connection.getInputStream());
@@ -65,11 +60,13 @@ public class ProxyTest {
         ByteArrayOutputStream outSteam = new ByteArrayOutputStream();
         byte[] buffer = new byte[1024];
         int len = -1;
+
         while ((len = inStream.read(buffer)) != -1) {
             outSteam.write(buffer, 0, len);
         }
         outSteam.close();
         inStream.close();
+
         return outSteam.toByteArray();
     }
 

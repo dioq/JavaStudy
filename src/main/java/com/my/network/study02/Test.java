@@ -6,7 +6,7 @@ import org.json.JSONObject;
 public class Test {
 
     public static void main(String[] args) {
-        SSLConfig.set(SSLTrustWhich.JustTrustMe);
+        SSLConfig.set(SSLTrustWhich.TrustAll);
 //        get_func();
         post_func();
     }

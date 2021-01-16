@@ -32,8 +32,8 @@ public class NetworkUtil {
         String proxyPass = "4B2FDEB625EBB5EE";
 
         // 代理服务器
-        String proxyServer = "http-pro.abuyun.com";
-        int proxyPort = 9010;
+        String proxyServer = "http-dyn.abuyun.com";
+        int proxyPort = 9020;
         Authenticator.setDefault(new ProxyAuthenticator(proxyUser, proxyPass));
 
         // 创建代理服务器地址对象
