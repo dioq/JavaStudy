@@ -1,4 +1,4 @@
-package com.my.network.study02;
+package com.my.network.SSLUtil;
 
 public enum SSLTrustWhich {
     TrustAll,//任信所有证书

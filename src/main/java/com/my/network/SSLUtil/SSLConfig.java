@@ -1,4 +1,4 @@
-package com.my.network.study04;
+package com.my.network.SSLUtil;
 
 import javax.net.ssl.*;
 import java.io.FileInputStream;
@@ -67,7 +67,7 @@ public class SSLConfig {
         try {
             // 生成 TrustManagerFactory
             CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
-            FileInputStream inputStream = new FileInputStream("src/main/java/com/my/network/study02/crt/cert.pem");//这里导入SSL证书文件
+            FileInputStream inputStream = new FileInputStream("src/main/resources/crt/cert.pem");//这里导入SSL证书文件
             Certificate ca = certificateFactory.generateCertificate(inputStream);
             KeyStore keystore = KeyStore.getInstance(KeyStore.getDefaultType());
             keystore.load(null, null);

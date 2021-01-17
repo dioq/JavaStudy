@@ -2,6 +2,8 @@ package com.my.network.study03;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+import com.my.network.SSLUtil.SSLConfig;
+import com.my.network.SSLUtil.SSLTrustWhich;
 
 public class Test {
 
