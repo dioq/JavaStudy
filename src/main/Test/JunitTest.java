@@ -8,6 +8,8 @@ import javax.crypto.IllegalBlockSizeException;
 import javax.crypto.NoSuchPaddingException;
 import java.io.UnsupportedEncodingException;
 import java.math.BigInteger;
+import java.net.URI;
+import java.net.URISyntaxException;
 import java.net.URLEncoder;
 import java.security.InvalidKeyException;
 import java.security.KeyFactory;
@@ -20,6 +22,17 @@ import java.util.*;
 import com.my.network.study05.NetworkUtil;
 
 public class JunitTest {
+
+    @Test
+    public void test12(){
+        String uriStr = "http://www.anant.club:8848/getTest";
+        try {
+            URI uri = new URI(uriStr);
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+        }
+    }
+
 
     @Test
     public void test11() {
