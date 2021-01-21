@@ -1,3 +1,5 @@
+import com.my.network.SSLUtil.SSLConfig;
+import com.my.network.SSLUtil.SSLTrustWhich;
 import com.sun.org.slf4j.internal.Logger;
 import com.sun.org.slf4j.internal.LoggerFactory;
 import org.junit.jupiter.api.Test;
@@ -24,7 +26,17 @@ import com.my.network.study05.NetworkUtil;
 public class JunitTest {
 
     @Test
-    public void test12(){
+    public void test13() {
+        SSLConfig.set(SSLTrustWhich.TrustAll);
+        String urlStr = "https://passport.iqiyi.com/apis/reglogin/mobile_login.action";
+        String requestData = "qyidv2=DB423D7F5692E5BA57B5FEB972E29488&lon=113.128877&dfp=15ae4e7dcfdcc10eed8a0d2fc8d9b83b902938fe43ce77318efc84b90c457eb537&device_type=oppo&wsc_ldt=oppo&fromSDK=21&qd_sc=207476fe0e881e2e0d962e8cec58d364&wsc_lgt=&wsc_sid=4233&checkExist=1&v=1&app_lm=cn&wsc_sp=&verifyPhone=1&appVersion=8.10.0&wsc_imei=864387778247441&passwd=QPI96MovA9H%2FOhjMDNADSryrlpHyYwWXCBsXkDspXGfU%2FVl%2F3id5xgSx2KIXUDX9Q%2BNzdGlRMCff1Rz5D65nrg%3D%3D&imei=864387778247441&lang=zh_CN&hfvc=95&s3=unknow&wsc_st=8.10.0&wsc_cc=&slidetoken=&slide=&QC005=DB423D7F5692E5BA57B5FEB972E294881611162348274&wsc_ost=14&wsc_isc=406050902412656&qd_sg=864387778247441-8.10.0-1611162348274-&ptid=02023031010000000000&wsc_osl=zh&mac=2f4d26ca86adaabc20c2a8b974cc5733&area_code=86&email=18998432390&agenttype=163&wsc_sm=01-12-f8-45-62-46&wsc_tt=02&s2=other&s4=unknow&wsc_iip=&vcode=hk3f&app_version=8.10.0&device_id=864387778247441&fields=userinfo%2Cqiyi_vip%2Cqiyi_tennis_vip%2Cfun_vip%2Csport_vip&device_name=oppo&envinfo=eyJhYSI6IjgwMDgxMDAwMCIsImJnIjoiODY0Mzg3Nzc4MjQ3NDQxIiwiYmIiOiJhc3VzXC9hbmRyb2lkX3g4NlwveDg2OjUuMS4xXC9MTVk0N0lcLzguMy4xOTp1c2VyXC9yZWxlYXNlLWtleXMiLCJhayI6IiIsInFmIjoiNi4wIiwiZnUiOiJjb20ucWl5aS52aWRlby5jaGlsZCIsImtsIjoiMzIyYTY2OWMtMDkxMi00ZDI2LTI3ZmY1MGIzZGJmYjA4YTYiLCJnbyI6IjguMTAuMCIsIm9sIjoiIiwiYWIiOiJFSWlydUF0T0pJSnJ0MnRZRzc3K0FFM1BvUnJvWXRQNWI5VzBwRFlVZjJjZEJsYkc2KzMvS1g0RkVzTFZJYVE1Vy9ERkFibmI2ckIvemNLY2RZNG10dkczanI3a1Riems2bFkycEtGeFhLTThXUTRSRXVFU1ByOXdLRzE2cGtLdCtBNWFwRmpqTW8yTUYwdnhFd1pBZzliOU9VeCs3RFIzWnQ2Y3JMZklyMWl0a2V1b2w2Y2xDUGdTZCswUy8wUjl5bkVueWJuNjd1VVdrcUZ4WFhiR08zWTBTaEdJZkp4UVJwajE0VmRXenVHQnVlbzJ6SElPQnM3RFB0bEZBT3ZjQVVuS0RJYnJHem5DeFB0OWgrYXdBazNHWEJaMjlXaGxZYngzbER4eFBIdjNZQjM0RUJ0Q1ZmZXlJZTJsU3E0UmFRRFFQbmNkVTFCZzJpMkRNOEY2WjVUWkt0TXFuZHc0cGdna291UElweTJIRkNsdkRhZ2prR3ZnUDlhblBwWmdWZ3RvR05Eb21HVDdBVE0xYUxPVDdmeG9HbWJJeUhmZUZjSDlmZGErT2oxVGIrVW5RWTAzS2FkcWl3bUV3T0I1M2c2MHB1SjFiNUZQL1hJVHp4OWMwVldjNTVmcHNCcUxJNnY1SFphT1RmZ3U3VzNLblRQeDVpZ1Y2WkJqZFRoVGFZenJzRFhDb3pyYU5CeW55a3ZFY0txcWVha1dKUEJSdjk4NkVsd0FLelQ0Zkp1TEw0WFkxc21QRlF5dnNMakk5THVBODkrQkM4K1hCUm1SY1VNZVl4K01QR0JxQkVyelM5YlJHcVlhNWxoN083T3J5Ti85UUJyS0RGR2pJT3Fybjl6UjhVYU1MVDFkZ1crdGlxZVcrc1RyUU5lVlNWYk9uNHc4WUhTQUsxMEx5bDh6Z3lVUjJyMW1VU2ZyeTBmQzl3UG82TG8zVE9kZ0Jmb3c0SVo1T3NGV3YwcXBPQUdjRy9jbEp3cnU0a2RBa2cyMzQ1TVF6ZW1YMTRFSFcraDRUQkYyRDRleVp3MUh6ZEg1cGt1QlEzSlc1VER1R0oydlN2cEM1UlMwMEpIZGp5K1hrcWZ4OHdYZHMzUFl4ek5nSjZPTFUvZ2lNNXgwWkF2Z3ZKK28yanVmZVBWRU84aTU1S1NsbFFJVzhWZk1RSnNaSXBub0k2Tkwvb0RsU3I1bDRhaVJyVEFGenlXSzFILzM4cldJdjhXWDFsQ0ZsdUFIRUMvZzljWUprbVAvckY1cWovWUZnRmFlR3MyZ3V4T1JTbHE5TERZazdxTjhKTkpFTzdaQnU0bWRjZEoyT1pEZjVmL01sWnl3dElyVis1MlhwaGh5cFEvVmpYNEJyQnBVQ0M1QUFrY2Yva0RobDVDeXI2WDU4eGhDUUIxMzEyV1ZydkhVdmNvSm43a1ZtVUhzcE9IZDRnTm9xc2ZVby9GQnZZQ2ZZRk1mN0RYckZ1eHhPZWJPMDVHZ2pZNjNiR2VkRkVQUjErQVlPSzNaTDlrajYrMkJ2enhBNHlOMTRUUnUwc2VFcXdPOWpSWDBQNGs4MkZGa3NVZEhObVIzS1R3OTZ2dXBTem1vMEhtcVM0cVV4SlpsSW9FZFQ2b1I3czVVa3B0U09CNmV4UmhmMDBVKy9KQ1FHZ2p2S0F1ZmRPQnNOMllBcmZUT1ZCSnV0amI3TSt3Mk52K1BTMWhmTDBHWVZ2MDNTckl0aXF3MTdkVHVycDdua2JpRDFVZ1FrcHJXMi91dkF1RHBnSVlsdVIrQjNtTGdyNkNqR01mOERiZWN5TEZlbXN1aTc3UVlzNGg3bmcyUFFzdmczUkFZZXAzcGFucmtHZ1YydTJ4c0JCM255UkJJZis0UHJKZW9mekdDZkVZbTNoY3dvM0E4WklCT1MxaDB2QXJNQ1FrU3d6S2hzUm9RaHR6OXhONVlpWGdtem9FQTAyMUQvREM4Um5XdytWUTFmcElaaXlmdU5YNy96Sy80OG4rWlVocDM5cHRyTU9ESXQvQnFoZ001MlR5YXlIMGRUV3o2Z1VNaDdxWFRET3RBK25vdGoxc1l6QmZzS0ZtWEtPMDhkd0RhS2c2czdsbjJIY3ozdmNSQ0hvekVBNE1OMjVpL1k5Zzh6Q3VwT3pFNVBFWmlYTHV2ODhvUHZHYmZkQzlhaWZBVTdTcFhPYmVHZGJpTG02QT0ifQ%3D%3D&wsc_istr=864387778247441&wsc_ltt=&lat=29.356983&";
+        System.out.println(requestData);
+        String response = new NetworkUtil().doPost(urlStr, requestData);
+        System.out.println("response:\n" + response);
+    }
+
+    @Test
+    public void test12() {
         String uriStr = "http://www.anant.club:8848/getTest";
         try {
             URI uri = new URI(uriStr);
@@ -32,7 +44,6 @@ public class JunitTest {
             e.printStackTrace();
         }
     }
-
 
     @Test
     public void test11() {
