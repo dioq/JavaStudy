@@ -1,16 +1,17 @@
 package com.my.network.study05;
 
+import com.my.network.SSLUtil.SSLTrustWhich;
 import org.json.JSONException;
 import org.json.JSONObject;
 import com.my.network.SSLUtil.SSLConfig;
-import com.my.network.SSLUtil.SSLTrustWhich;
 
 public class Test {
 
     public static void main(String[] args) {
-        SSLConfig.set(SSLTrustWhich.TrustAll);
+//        SSLConfig.set(SSLTrustWhich.TrustMeOneway);
 //        get_func();
-        post_func();
+//        post_func();
+        get_tls_twoway();
     }
 
     public static void get_func() {
@@ -33,6 +34,15 @@ public class Test {
         String requestData = param_json.toString();
         String response = new NetworkUtil().doPost(urlStr, requestData);
         System.out.println("post_tls_func response:\n" + response);
+    }
+
+    // 双向验证
+    public static void get_tls_twoway() {
+        SSLConfig.set(SSLTrustWhich.TrustMeTwoway);
+        String urlStr = "https://134.175.224.245:8093/getdata";
+//        String urlStr = "https://localhost:8093/getdata";
+        String response = new NetworkUtil().doGet(urlStr);
+        System.out.println("tsl_twoway response:\n" + response);
     }
 
 }
