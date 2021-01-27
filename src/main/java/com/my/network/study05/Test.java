@@ -11,6 +11,7 @@ public class Test {
 //        SSLConfig.set(SSLTrustWhich.TrustMeOneway);
 //        get_func();
 //        post_func();
+        get_tls_oneway();
         get_tls_twoway();
     }
 
@@ -36,11 +37,18 @@ public class Test {
         System.out.println("post_tls_func response:\n" + response);
     }
 
+    // 单向验证
+    public static void get_tls_oneway() {
+        SSLConfig.set(SSLTrustWhich.TrustMeOneway);
+        String urlStr = "https://www.anant.club:8082/getdata";
+        String response = new NetworkUtil().doGet(urlStr);
+        System.out.println("get_tls_oneway response:\n" + response);
+    }
+
     // 双向验证
     public static void get_tls_twoway() {
         SSLConfig.set(SSLTrustWhich.TrustMeTwoway);
-        String urlStr = "https://134.175.224.245:8093/getdata";
-//        String urlStr = "https://localhost:8093/getdata";
+        String urlStr = "https://www.anant.club:8083/getdata";
         String response = new NetworkUtil().doGet(urlStr);
         System.out.println("tsl_twoway response:\n" + response);
     }
