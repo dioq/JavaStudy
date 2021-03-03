@@ -21,7 +21,7 @@ import javax.crypto.spec.SecretKeySpec;
 import com.my.network.study05.NetworkUtil;
 import org.json.JSONObject;
 
-public class Test {
+public class Iqiyi_crack {
 
     private static String imei = "865166021440469";
     // 第一次安装app时生成的

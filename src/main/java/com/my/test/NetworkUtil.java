@@ -1,5 +1,7 @@
-package com.my.network.study05;
+package com.my.test;
 
+import com.my.bytes.BytesHexUtil;
+import com.my.file_io.FileUtils;
 import com.sun.istack.internal.Nullable;
 
 import javax.net.ssl.HttpsURLConnection;
@@ -8,9 +10,7 @@ import java.net.HttpURLConnection;
 import java.net.InetSocketAddress;
 import java.net.Proxy;
 import java.net.URL;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 /*
  * http 和 https
@@ -67,10 +67,9 @@ public class NetworkUtil {
         connection.setReadTimeout(8000);//读取最大时间
         connection.setConnectTimeout(50000);
         connection.setRequestProperty("accept", "*/*");
-        connection.setRequestProperty("Accept-Encoding", "gzip, deflate, br");
         connection.setRequestProperty("Connection", "Keep-Alive");
         connection.setRequestProperty("Charset", "UTF-8");
-        connection.setRequestProperty("User-Agent", "Piexl 3");
+        connection.setRequestProperty("User-Agent", "Android Client Agent");
         connection.setUseCaches(false);
 
         return connection;
@@ -149,14 +148,13 @@ public class NetworkUtil {
         return doPost(urlStr, param, null);
     }
 
-    // 设置请求头
     public String doPost(String urlStr, String param, @Nullable Map<String, String> headers) {
         HttpURLConnection connection = null;
         String result = null;
         try {
             connection = setSSLAndProxy(urlStr);
 
-            connection.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+//            connection.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
             connection.setRequestMethod("POST");
 
             if (headers != null) {
@@ -169,7 +167,8 @@ public class NetworkUtil {
             //--------------------------------
             connection.setDoOutput(true);//是否写入参数
             OutputStream outputStream = connection.getOutputStream();
-            outputStream.write(param.getBytes());//把参数的二进制格式 直接写入到网络输出流outputStream中
+            byte[] param_bytes = Base64.getDecoder().decode(param);
+            outputStream.write(param_bytes);//把参数的二进制格式 直接写入到网络输出流outputStream中
             //--------------------------------
 
             //处理返回信息
@@ -185,40 +184,6 @@ public class NetworkUtil {
         return result;
     }
 
-    // 参数直接为 二进制数据
-    public String doPostBinary(String urlStr, byte[] param, @Nullable Map<String, String> headers) {
-        HttpURLConnection connection = null;
-        String result = null;
-        try {
-            connection = setSSLAndProxy(urlStr);
-
-            connection.setRequestMethod("POST");
-
-            if (headers != null) {
-                // 添加请求头参数
-                for (HashMap.Entry<String, String> entity : headers.entrySet()) {
-                    connection.setRequestProperty(entity.getKey(), entity.getValue());
-                }
-            }
-
-            //--------------------------------
-            connection.setDoOutput(true);//是否写入参数
-            OutputStream outputStream = connection.getOutputStream();
-            outputStream.write(param);//把参数的二进制格式 直接写入到网络输出流outputStream中
-            //--------------------------------
-
-            //处理返回信息
-            result = getResponse(connection);
-            outputStream.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            if (connection != null) {
-                connection.disconnect();
-            }
-        }
-        return result;
-    }
 
     /**
      * POST   普通表单提交 application/x-www-form-urlencoded

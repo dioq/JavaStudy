@@ -203,6 +203,40 @@ public class FileUtils {
     }
 
 
+    // 读取本地文件的 二进制数据
+    public static byte[] getBytes_from_localFile(String source_path) {
+        File source_file = new File(source_path);
+        if (!source_file.exists()) {
+            System.out.println("待处理文件不存在");
+            return null;
+        }
+
+        DataInputStream bis = null;
+        FileInputStream fis = null;
+        byte[] buff = null;
+
+        try {
+            fis = new FileInputStream(source_file);
+            bis = new DataInputStream(fis);
+
+            int len = bis.available();//获取文件字节数
+            buff = new byte[len];
+            bis.read(buff, 0, len);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (fis != null)
+                    fis.close();
+                if (bis != null)
+                    bis.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        return buff;
+    }
+
     //把string 写到本地文件里(会覆盖)
     public static void write_to_localFile(String content, String filePath) {
         File f = new File(filePath);

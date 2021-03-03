@@ -1,4 +1,4 @@
-package com.my.bytes_string;
+package com.my.bytes;
 
 import java.util.Arrays;
 
@@ -20,4 +20,5 @@ public class BytesTest {
         String test_bytes_str_2 = Arrays.toString(bytes_str_2);
         System.out.println("test_bytes_str_2:\n" + test_bytes_str_2);
     }
+
 }

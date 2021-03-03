@@ -1,4 +1,4 @@
-package com.my.bytes_string;
+package com.my.bytes;
 
 public class BytesHexUtil {
 
