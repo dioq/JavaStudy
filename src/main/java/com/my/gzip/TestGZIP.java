@@ -15,6 +15,10 @@ public class TestGZIP {
 //        test02();
     }
 
+    private static void test03(){
+
+    }
+
     private static void test02() {
         byte[] bytes1 = FileUtils.getBytes_from_localFile("C:\\Users\\zhend\\Desktop\\byte3");
         assert bytes1 != null;

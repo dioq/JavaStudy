@@ -22,6 +22,19 @@
 
 
     <dependencies>
+        <!--   apache 网络请求   -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpcore</artifactId>
+            <version>4.4.5</version>
+        </dependency>
+
+
         <!-- jdk的第三方安全库 -->
         <dependency>
             <groupId>org.bouncycastle</groupId>

@@ -1,6 +1,5 @@
 package com.my.gzip;
 
-import javax.imageio.IIOException;
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -12,6 +11,22 @@ public class GZIPUtils {
     public static final String GZIP_ENCODE_ISO_8859_1 = "ISO-8859-1";
 
     // GZIP压缩
+    public static byte[] compressBytes(byte[] bytes) {
+        if (bytes.length == 0) {
+            return null;
+        }
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+        GZIPOutputStream gzip;
+        try {
+            gzip = new GZIPOutputStream(out);
+            gzip.write(bytes);
+            gzip.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return out.toByteArray();
+    }
+
     public static byte[] compress(String str, String encoding) {
         if (str == null || str.length() == 0) {
             return null;
