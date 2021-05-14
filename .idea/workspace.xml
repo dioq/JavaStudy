@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/CacheType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/Dianping_crack3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/Dianping_crack4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/FormInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/MApiFileInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/MApiFormInputStream.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/MApiRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/test/WrapInputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/gzip/GZIPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/gzip/GZIPUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/gzip/TestGZIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/gzip/TestGZIP.java" afterDir="false" />
-    </list>
+    <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,11 +29,6 @@
         <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="1kR4ShebI05KZIIHESggQ7gMwvk" />
   <component name="ProjectLevelVcsManager">
@@ -62,15 +44,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AES_Crypto" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +77,7 @@
       <recent name="F:\ideaProjects\JavaStudy\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Dianping2.test12">
+  <component name="RunManager" selected="JUnit.Test01.test01">
     <configuration name="Dianping_crack4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.test.Dianping_crack4" />
       <module name="JavaStudy" />
@@ -106,57 +91,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dianping2.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test01.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaStudy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Dianping2" />
-      <option name="METHOD_NAME" value="test11" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.my.test" />
+      <option name="MAIN_CLASS_NAME" value="com.my.test.Test01" />
+      <option name="METHOD_NAME" value="test01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dianping2.test12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaStudy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Dianping2" />
-      <option name="METHOD_NAME" value="test12" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GZIPTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaStudy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GZIPTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GZIPTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaStudy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GZIPTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Dianping_crack4" />
+      <item itemvalue="JUnit.Test01.test01" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Dianping2.test12" />
-        <item itemvalue="JUnit.Dianping2.test11" />
+        <item itemvalue="JUnit.Test01.test01" />
         <item itemvalue="Application.Dianping_crack4" />
-        <item itemvalue="JUnit.GZIPTest.test02" />
-        <item itemvalue="JUnit.GZIPTest.test1" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -219,69 +192,27 @@
       <workItem from="1614792612025" duration="19329000" />
       <workItem from="1614812043062" duration="26000" />
       <workItem from="1614869664257" duration="24440000" />
+      <workItem from="1621015805350" duration="518000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="587" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1614875033397">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="587" y="147" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1614875033397" />
-    <state x="539" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614808956114">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="539" y="152" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1614808956114" />
-    <state x="513" y="165" key="FileChooserDialogImpl" timestamp="1614885291397">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="513" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1614885291397" />
-    <state width="1338" height="198" key="GridCell.Tab.0.bottom" timestamp="1614911707081">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614911707081" />
-    <state width="1338" height="198" key="GridCell.Tab.0.center" timestamp="1614911707081">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1614911707081" />
-    <state width="1338" height="198" key="GridCell.Tab.0.left" timestamp="1614911707081">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1614911707081" />
-    <state width="1338" height="198" key="GridCell.Tab.0.right" timestamp="1614911707081">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1614911707081" />
-    <state width="1338" height="252" key="GridCell.Tab.1.bottom" timestamp="1614811958818">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1614811958818" />
-    <state width="1338" height="252" key="GridCell.Tab.1.center" timestamp="1614811958818">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1614811958818" />
-    <state width="1338" height="252" key="GridCell.Tab.1.left" timestamp="1614811958817">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1614811958817" />
-    <state width="1338" height="252" key="GridCell.Tab.1.right" timestamp="1614811958818">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1338" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1614811958818" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
