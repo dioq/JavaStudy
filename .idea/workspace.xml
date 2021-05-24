@@ -77,13 +77,26 @@
       <recent name="F:\ideaProjects\JavaStudy\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Outer7">
     <configuration name="Dianping_crack4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.my.test.Dianping_crack4" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.my.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Outer7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.inner_class.Outer7" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.my.inner_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +146,13 @@
     </configuration>
     <list>
       <item itemvalue="Application.Dianping_crack4" />
-      <item itemvalue="JUnit.Test01.test01" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="JUnit.Test01.test01" />
+      <item itemvalue="Application.Outer7" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outer7" />
         <item itemvalue="Application.Test" />
         <item itemvalue="JUnit.Test01.test01" />
         <item itemvalue="Application.Dianping_crack4" />
@@ -211,6 +226,9 @@
       <workItem from="1621071016558" duration="3546000" />
       <workItem from="1621239478661" duration="151000" />
       <workItem from="1621240955113" duration="5909000" />
+      <workItem from="1621251526115" duration="2368000" />
+      <workItem from="1621265784152" duration="614000" />
+      <workItem from="1621795929908" duration="3973000" />
     </task>
     <servers />
   </component>
