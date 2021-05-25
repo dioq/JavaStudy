@@ -1,10 +1,9 @@
 package com.my.gzip;
 
 import com.my.bytes.BytesHexUtil;
+import com.my.file_io.FileUtils;
 
 import java.nio.charset.StandardCharsets;
-
-import com.my.file_io.FileUtils;
 
 public class TestGZIP {
     private static String testStr = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
@@ -15,12 +14,12 @@ public class TestGZIP {
 //        test02();
     }
 
-    private static void test03(){
+    private static void test03() {
 
     }
 
     private static void test02() {
-        byte[] bytes1 = FileUtils.getBytes_from_localFile("C:\\Users\\zhend\\Desktop\\byte3");
+        byte[] bytes1 = FileUtils.readBytes_from_localFile("C:\\Users\\zhend\\Desktop\\byte3");
         assert bytes1 != null;
         System.out.println("byte1 hex : " + BytesHexUtil.byteToHex(bytes1));
 

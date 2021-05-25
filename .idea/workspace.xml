@@ -65,16 +65,16 @@
       <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\network\study05" />
       <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\verificationcode" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\verificationcode\Tess4J\dist" />
+      <recent name="F:\ideaProjects\JavaStudy\src\main" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.my.file_io" />
       <recent name="com.my.test" />
       <recent name="com.my.reference" />
       <recent name="com.my.ThreadPool.study03" />
       <recent name="com.my.enumdemo.study03" />
-      <recent name="com.my.network.study04" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\verificationcode\Tess4J\dist" />
-      <recent name="F:\ideaProjects\JavaStudy\src\main" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Outer7">
@@ -147,8 +147,8 @@
     <list>
       <item itemvalue="Application.Dianping_crack4" />
       <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.Test01.test01" />
       <item itemvalue="Application.Outer7" />
+      <item itemvalue="JUnit.Test01.test01" />
     </list>
     <recent_temporary>
       <list>
@@ -229,6 +229,8 @@
       <workItem from="1621251526115" duration="2368000" />
       <workItem from="1621265784152" duration="614000" />
       <workItem from="1621795929908" duration="3973000" />
+      <workItem from="1621938097292" duration="31000" />
+      <workItem from="1621940428703" duration="1623000" />
     </task>
     <servers />
   </component>

@@ -204,7 +204,7 @@ public class FileUtils {
 
 
     // 读取本地文件的 二进制数据
-    public static byte[] getBytes_from_localFile(String source_path) {
+    public static byte[] readBytes_from_localFile(String source_path) {
         File source_file = new File(source_path);
         if (!source_file.exists()) {
             System.out.println("待处理文件不存在");
@@ -235,6 +235,40 @@ public class FileUtils {
             }
         }
         return buff;
+    }
+
+    // 将 二进制数据 写到本地文件
+    public static void writeBytes_to_localFile(byte[] data, String destination_path) {
+        File des_file = new File(destination_path);
+
+        OutputStream out = null;
+
+        if (data.length <= 0) {
+            System.out.println("要写入的数据为空");
+            return;
+        }
+
+        try {
+            //目标文件存在 就删除,保证新建的文件是全新的
+            if (des_file.exists()) {
+                des_file.delete();
+            }
+            des_file.createNewFile();
+
+            //建立目标输出流
+            out = new FileOutputStream(des_file.getAbsolutePath());
+            //将数据写到本地文件中
+            out.write(data, 0, data.length);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (out != null)
+                    out.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 
     //把string 写到本地文件里(会覆盖)
