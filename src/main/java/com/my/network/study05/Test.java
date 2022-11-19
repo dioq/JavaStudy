@@ -8,8 +8,8 @@ import com.my.network.SSLUtil.SSLConfig;
 public class Test {
 
     public static void main(String[] args) {
-        get_func();
-        get_tls_oneway();
+//        get_func();
+//        get_tls_oneway();
         get_tls_twoway();
     }
 

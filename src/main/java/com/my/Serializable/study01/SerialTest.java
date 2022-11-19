@@ -53,7 +53,7 @@ public class SerialTest {
          * ③ 通过ObjectOutputStream 的 writeObject()方法将对象序列化为文件
          */
         User user = new User("陈本布衣", "123456", 100);
-        ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("F:\\tmp\\user.java"));
+        ObjectOutputStream os = new ObjectOutputStream(new FileOutputStream("src/main/resources/serialize/user.java"));
         os.writeObject(user);
         os.close();
 
@@ -66,10 +66,10 @@ public class SerialTest {
          * ① 创建输入流对象ObjectOutputStream。同样依赖于其它输入流对象，这里是文件输入流 FileInputStream
          * ② 通过 ObjectInputStream 的 readObject()方法，将文件中的对象读取到内存
          */
-        ObjectInputStream is = new ObjectInputStream(new FileInputStream("F:\\tmp\\user.java"));
-        User o = (User) is.readObject();
-        is.close();
-        System.out.println(o);
-        System.out.println("当前时间：" + new Date());
+//        ObjectInputStream is = new ObjectInputStream(new FileInputStream("src/main/resources/serialize/user.java"));
+//        User o = (User) is.readObject();
+//        is.close();
+//        System.out.println(o);
+//        System.out.println("当前时间：" + new Date());
     }
 }

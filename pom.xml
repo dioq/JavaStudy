@@ -22,6 +22,14 @@
 
 
     <dependencies>
+
+        <!-- protobuf -->
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.21.1</version>
+        </dependency>
+
         <!--   apache 网络请求   -->
         <dependency>
             <groupId>org.apache.httpcomponents</groupId>

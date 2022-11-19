@@ -1,0 +1,28 @@
+// 如果使用此注释，则使用proto3; 否则使用proto2
+syntax = "proto3";
+
+// 生成类的包名
+option java_package = "com.my.Serializable.protobuf";
+//生成的数据访问类的类名,如果没有指定此值,则生成的类名为proto文件名的驼峰命名方法
+option java_outer_classname = "PersonProtos";
+
+message Person {
+  int32 id = 1;
+  int32 age = 2;
+  string name = 3;
+  string sex = 4;
+}
+
+/*
+protoc --java_out=/Users/dio/Repository/java_space/JavaStudy/src/main/java -I=./ *.proto
+--java_out ： 指定输出的 Java 文件所在的目录
+-I ：指定 proto 文件所在的目录
+*.proto ： 表示在 -I 指定的目录下查找 以 .proto 文件结尾的文件
+
+syntax ：指定 protobuf 的版本，如果没有指定默认使用 proto2，必须是.proto文件的除空行和注释内容之外的第一行
+option ：表示一个可选字段
+java_package ： 指定生成 java 类所在的包名
+java_outer_classname ： 指定生成 java 类的名字
+message 中包含了一个 string 类型的字段(name)。注意 ：= 号后面都跟着一个字段编号
+每个字段由三部分组成：字段类型 + 字段名称 + 字段编号，在 Java 中每个字段会被编译成 Java 对象，其他语言会被编译其他语言类型
+* */
