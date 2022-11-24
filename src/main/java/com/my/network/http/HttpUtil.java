@@ -1,23 +1,27 @@
-package com.my.network.study01;
+package com.my.network.http;
 
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.InetSocketAddress;
-import java.net.Proxy;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.UUID;
 
-/*
- * http
- * 仅支持http 不能设置代理ip和port
- * */
-public class NetworkUtil {
+public class HttpUtil {
 
-    private int connectTimeout = 100 * 1000;
-    private int readTimeout = 100 * 1000;
+    private final int connectTimeout = 100 * 1000;
+    private final int readTimeout = 100 * 1000;
 
-    public NetworkUtil() {
+    private static HttpUtil instance;
+
+    //构造器私有化
+    private HttpUtil() {
+    }
+
+    //方法同步，调用效率低
+    public static synchronized HttpUtil getInstance() {
+        if (instance == null) {
+            instance = new HttpUtil();
+        }
+        return instance;
     }
 
 
@@ -122,69 +126,6 @@ public class NetworkUtil {
     }
 
     /**
-     * POST   普通表单提交 application/x-www-form-urlencoded
-     *
-     * @param urlStr 请求接口
-     * @param param  参数
-     */
-    public String submitForm(String urlStr, String param) {
-        HttpURLConnection connection = null;
-        BufferedReader reader = null;
-        String result = null;
-        try {
-            URL url = new URL(urlStr);
-            connection = (HttpURLConnection) url.openConnection();
-            connection.setUseCaches(false);
-            connection.setRequestMethod("POST");
-            connection.setRequestProperty("accept", "*/*");
-            connection.setRequestProperty("Connection", "Keep-Alive");
-            connection.setRequestProperty("Charset", "UTF-8");
-            connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
-            //--------------------------------
-            connection.setDoOutput(true);//是否写入参数
-            connection.getOutputStream().write(param.getBytes());
-            //--------------------------------
-            //处理返回信息
-            if (connection.getResponseCode() == 200) {
-                InputStream in = connection.getInputStream();//获取网络输入流 in
-                reader = new BufferedReader(new InputStreamReader(in)); //转换成BufferedReader
-                StringBuilder response = new StringBuilder();
-                String line;
-                while ((line = reader.readLine()) != null) {
-                    response.append(line);
-                }
-                result = response.toString();
-            } else {
-                result = "network is failed.  " + connection.getResponseMessage();
-            }
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
-            try {
-                if (reader != null) {
-                    reader.close();
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-            if (connection != null) {
-                connection.disconnect();
-            }
-        }
-        return result;
-    }
-
-    //将参数 处理成form表单的特定格式
-    public String getParams(HashMap<String, String> paramsMap) {
-        String result = "";
-        for (HashMap.Entry<String, String> entity : paramsMap.entrySet()) {
-            result += "&" + entity.getKey() + "=" + entity.getValue();
-        }
-        return result.substring(1);
-    }
-
-
-    /**
      * POST 上传图片,如果文件是图片大多时候会有各种描述,二进制数据里掺杂有描述信息,需要用这个方法来上传。
      *
      * @param urlStr   上传接口
@@ -216,7 +157,7 @@ public class NetworkUtil {
             connection.setRequestProperty("connection", "Keep-Alive");
             connection.setRequestProperty("Charset", "UTF-8");
             connection.setConnectTimeout(connectTimeout);
-            connection.setRequestProperty("User-Agent", "Android Client Agent");
+            connection.setRequestProperty("User-Agent", "Android");
             connection.setRequestProperty("Content-Type", "multipart/form-data; charset=utf-8; boundary=" + BOUNDARY);
             connection.setDoOutput(true);
             connection.setDoInput(true);
@@ -229,7 +170,11 @@ public class NetworkUtil {
             bos.write(("--" + BOUNDARY).getBytes());//数据以--BOUNDARY开始
             bos.write(NewLine.getBytes());//换行
             String name = "file";//后台服务器根据这个名取到Request
-            String content = String.format("Content-Disposition: form-data; name=%s; filename=%s", name, file.getName());
+            String fileName = file.getName();
+            String[] fileArr = file.getName().split("\\.");
+            String extension = fileArr[1];
+            String content = String.format("Content-Disposition: form-data; name=%s; filename=%s; type=%s", name, fileName, extension);
+            System.out.println(content);
             bos.write(content.getBytes());
             bos.write(NewLine.getBytes());//换行
             bos.write(NewLine.getBytes());//换行
