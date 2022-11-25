@@ -126,12 +126,12 @@ public class HttpUtil {
     }
 
     /**
-     * POST 上传图片,如果文件是图片大多时候会有各种描述,二进制数据里掺杂有描述信息,需要用这个方法来上传。
+     * POST 上传文件,如果文件是图片大多时候会有各种描述,二进制数据里掺杂有描述信息,需要用这个方法来上传。
      *
      * @param urlStr   上传接口
      * @param filePath 要上传的文件路径
      */
-    public String uploadImage(String urlStr, String filePath) {
+    public String uploadFile(String urlStr, String filePath) {
         System.out.println("============= 开始上传 =============");
         File file = new File(filePath);
         if (!file.exists()) {
@@ -170,10 +170,7 @@ public class HttpUtil {
             bos.write(("--" + BOUNDARY).getBytes());//数据以--BOUNDARY开始
             bos.write(NewLine.getBytes());//换行
             String name = "file";//后台服务器根据这个名取到Request
-            String fileName = file.getName();
-            String[] fileArr = file.getName().split("\\.");
-            String extension = fileArr[1];
-            String content = String.format("Content-Disposition: form-data; name=%s; filename=%s; type=%s", name, fileName, extension);
+            String content = String.format("Content-Disposition: form-data; name=%s; filename=%s;", name, file.getName());
             System.out.println(content);
             bos.write(content.getBytes());
             bos.write(NewLine.getBytes());//换行
@@ -266,7 +263,7 @@ public class HttpUtil {
             connection.setRequestProperty("connection", "Keep-Alive");
             connection.setRequestProperty("Charset", "UTF-8");
             connection.setConnectTimeout(connectTimeout);
-            connection.setRequestProperty("User-Agent", "Android Client Agent");
+            connection.setRequestProperty("User-Agent", "Android");
             connection.setRequestProperty("Content-Type", "multipart/form-data; charset=utf-8");
             connection.setDoOutput(true);
             connection.setDoInput(true);

@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/http/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/https/HttpsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/HttpsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/proxy/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/sslping/HttpsUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/network/sslping/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cert/client.p12" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/cert/server.jks" afterDir="false" />
+    <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study01/NetworkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/http/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study01/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study02/NetworkUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/proxy/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study02/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/https/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study03/NetworkUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study03/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study04/NetworkUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study04/ProxyAuthenticator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study04/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study05/NetworkUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/study05/Test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crt/client.jks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/crt/client.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/http/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/http/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/http/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/http/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/HttpsUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,21 +47,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/dio/Repository/java_space/JavaStudy/src/main/java/com/my/network/proxy",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "File.Encoding"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dio/Repository/java_space/JavaStudy/src/main/java/com/my/network/proxy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/my/network/proxy" />
@@ -199,7 +180,8 @@
       <workItem from="1658424467442" duration="39000" />
       <workItem from="1660805855347" duration="610000" />
       <workItem from="1669095613029" duration="7646000" />
-      <workItem from="1669228794321" duration="11444000" />
+      <workItem from="1669228794321" duration="11876000" />
+      <workItem from="1669354179805" duration="568000" />
     </task>
     <servers />
   </component>

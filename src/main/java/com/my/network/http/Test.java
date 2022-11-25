@@ -6,10 +6,10 @@ import org.json.JSONObject;
 public class Test {
 
     public static void main(String[] args) {
-        get();
-        post();
-      post2();
-//        upload();
+//        get();
+//        post();
+//      post2();
+        upload();
     }
 
     private static void get() {
@@ -49,7 +49,7 @@ public class Test {
     private static void upload() {
         String urlStr = "http://jobs8.cn:8090/upload";
         String filePath = "src/main/resources/images/001.jpeg";
-        String result = HttpUtil.getInstance().uploadImage(urlStr,filePath);
+        String result = HttpUtil.getInstance().uploadFile(urlStr,filePath);
         System.out.println(result);
     }
 }
