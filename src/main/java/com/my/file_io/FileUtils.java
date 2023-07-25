@@ -2,6 +2,8 @@ package com.my.file_io;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -143,9 +145,9 @@ public class FileUtils {
             if (!f.exists()) {
                 return null;
             }
-            int length = (int) f.length();
-            byte[] buff = new byte[length];
             FileInputStream fin = new FileInputStream(f);
+            int length = fin.available();
+            byte[] buff = new byte[length];
             fin.read(buff);
             fin.close();
             result = new String(buff, StandardCharsets.UTF_8);
@@ -179,7 +181,7 @@ public class FileUtils {
             fis = new FileInputStream(source_file);
             bis = new DataInputStream(fis);
             //建立目标输出流
-            out = new FileOutputStream(des_file.getAbsolutePath());
+            out = Files.newOutputStream(Paths.get(des_file.getAbsolutePath()));
             int len = 0;
             byte[] buff = new byte[1024];
             //依次读入输入流里的二进制数据,再写到输出流里
@@ -190,12 +192,9 @@ public class FileUtils {
             e.printStackTrace();
         } finally {
             try {
-                if (out != null)
-                    out.close();
-                if (fis != null)
-                    fis.close();
-                if (bis != null)
-                    bis.close();
+                if (out != null) out.close();
+                if (fis != null) fis.close();
+                if (bis != null) bis.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -226,10 +225,8 @@ public class FileUtils {
             e.printStackTrace();
         } finally {
             try {
-                if (fis != null)
-                    fis.close();
-                if (bis != null)
-                    bis.close();
+                if (fis != null) fis.close();
+                if (bis != null) bis.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -263,8 +260,7 @@ public class FileUtils {
             e.printStackTrace();
         } finally {
             try {
-                if (out != null)
-                    out.close();
+                if (out != null) out.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
