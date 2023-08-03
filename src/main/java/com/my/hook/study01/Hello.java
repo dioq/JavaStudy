@@ -1,4 +1,4 @@
-package com.my.hook;
+package com.my.hook.study01;
 
 public class Hello {
 

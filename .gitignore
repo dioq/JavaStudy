@@ -1,5 +1,4 @@
 .DS_Store
-.idea/*
-.idea/workspace.xml
-src/main/Test/*
-target/*
+.ideal
+src/main/Test/
+target/
