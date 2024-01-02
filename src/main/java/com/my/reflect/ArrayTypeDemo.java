@@ -39,5 +39,4 @@ public class ArrayTypeDemo {
         System.out.println("====================== end ======================");
     }
 
-
 }

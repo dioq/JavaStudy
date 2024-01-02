@@ -5,6 +5,7 @@ public class Person {
     public String name;
     public int age;
     private String address;
+    private static String weath = "55万";
 
     //构造方法
     public Person() {
@@ -62,7 +63,6 @@ public class Person {
     public static String method6(String str) {
         return str + "  add_value";
     }
-
 
     @Override
     public String toString() {

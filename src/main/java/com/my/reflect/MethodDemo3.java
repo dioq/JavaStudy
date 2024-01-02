@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 public class MethodDemo3 {
     //8、通过反射，创建对象，调用指定的private 方法
     /*
-        1. 获取Class对象
+       1. 获取Class对象
     　　2. 获取构造方法
     　　3. 通过构造方法，创建对象
     　　4. 获取指定的方法
@@ -31,7 +31,8 @@ public class MethodDemo3 {
             m5.setAccessible(true);
             //6，执行找到的方法
             m5.invoke(obj, null);
-        } catch (ClassNotFoundException | IllegalAccessException | NoSuchMethodException | InvocationTargetException | InstantiationException e) {
+        } catch (ClassNotFoundException | IllegalAccessException | NoSuchMethodException | InvocationTargetException |
+                 InstantiationException e) {
             e.printStackTrace();
         }
     }

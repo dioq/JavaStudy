@@ -11,7 +11,8 @@ public class MethodDemo4 {
             Method method = threadClazz.getMethod("method6", String.class);
             String result = (String) method.invoke(null, "a_test_valuex");
             System.out.println("result: " + result);
-        } catch (ClassNotFoundException | NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+        } catch (ClassNotFoundException | NoSuchMethodException | IllegalAccessException |
+                 InvocationTargetException e) {
             e.printStackTrace();
         }
     }

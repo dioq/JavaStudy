@@ -26,7 +26,8 @@ public class ConstructorDemo2 {
             //4,通过构造方法类中的功能，创建对象
             Object obj = con.newInstance("小明", 23);
             System.out.println(obj);
-        } catch (InstantiationException | IllegalAccessException | InvocationTargetException | ClassNotFoundException | NoSuchMethodException e) {
+        } catch (InstantiationException | IllegalAccessException | InvocationTargetException | ClassNotFoundException |
+                 NoSuchMethodException e) {
             e.printStackTrace();
         }
     }

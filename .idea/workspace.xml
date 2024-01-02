@@ -5,10 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Hook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/Shopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/ShoppingImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/ShoppingHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/TestDynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/ProxyShopping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/TestStatic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/ProxyRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/ProxyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/ProxyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/ProxyRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/netutil/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/netutil/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study03/ProxyAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study03/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ArrayTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ArrayTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -46,30 +69,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lzd/Repository/JavaStudy/src/main/java/com/my/hook/study03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lzd/Repository/JavaStudy/src/main/java/com/my/proxy/static_proxy&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic" />
       <recent name="$PROJECT_DIR$/src/main/java/com/my/hook/study03" />
       <recent name="$PROJECT_DIR$/src/main/java/com/my/hook" />
       <recent name="$PROJECT_DIR$/src/main/java/com/my/network/proxy" />
-      <recent name="$PROJECT_DIR$/src/main/resources/cert" />
-      <recent name="F:\ideaProjects\JavaStudy\src\main\resources\crt" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/my/Serializable" />
@@ -84,7 +107,7 @@
       <recent name="com.my.file_io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.my.hook.study03.Hook">
+  <component name="RunManager" selected="Application.FieldDemo2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.hook.study02.Hook" />
+    <configuration name="FieldDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.reflect.FieldDemo2" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.hook.study02.*" />
+          <option name="PATTERN" value="com.my.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javassist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.hook.study01.Javassist" />
+    <configuration name="FieldDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.reflect.FieldDemo3" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.hook.study01.*" />
+          <option name="PATTERN" value="com.my.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.my.hook.study03.Hook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.hook.study03.Hook" />
+    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.reflect.MethodDemo" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.hook.study03.*" />
+          <option name="PATTERN" value="com.my.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,9 +160,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.com.my.hook.study03.Hook" />
-        <item itemvalue="Application.Hook" />
-        <item itemvalue="Application.Javassist" />
+        <item itemvalue="Application.FieldDemo2" />
+        <item itemvalue="Application.FieldDemo3" />
+        <item itemvalue="Application.MethodDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -233,6 +256,11 @@
       <workItem from="1689929299080" duration="861000" />
       <workItem from="1690182361086" duration="1695000" />
       <workItem from="1690280546338" duration="381000" />
+      <workItem from="1699514525921" duration="64000" />
+      <workItem from="1702461690341" duration="120000" />
+      <workItem from="1702729018514" duration="1131000" />
+      <workItem from="1702802451257" duration="7370000" />
+      <workItem from="1704179236133" duration="7400000" />
     </task>
     <servers />
   </component>

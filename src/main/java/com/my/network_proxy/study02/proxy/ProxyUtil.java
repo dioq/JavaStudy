@@ -1,10 +1,10 @@
-package com.my.dynamic_proxy.study02.proxy;
+package com.my.network_proxy.study02.proxy;
 
 import com.google.gson.Gson;
-import com.my.dynamic_proxy.study02.proxy.model.Obj;
-import com.my.dynamic_proxy.study02.proxy.model.ProxyRoot;
+import com.my.network_proxy.study02.proxy.model.Obj;
+import com.my.network_proxy.study02.proxy.model.ProxyRoot;
 
-import static com.my.dynamic_proxy.study02.proxy.netutil.HttpUtil.httpRequest;
+import static com.my.network_proxy.study02.proxy.netutil.HttpUtil.httpRequest;
 
 public class ProxyUtil {
 

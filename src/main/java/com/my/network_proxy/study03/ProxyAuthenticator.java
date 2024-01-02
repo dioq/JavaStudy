@@ -1,4 +1,4 @@
-package com.my.dynamic_proxy.study03;
+package com.my.network_proxy.study03;
 
 import java.net.Authenticator;
 import java.net.PasswordAuthentication;

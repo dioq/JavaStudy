@@ -28,15 +28,8 @@ public class ConstructorDemo1 {
             Object obj = con.newInstance("小明", 22, "哈尔滨");
             //显示
             System.out.println(obj);
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
-        } catch (InvocationTargetException e) {
-            e.printStackTrace();
-        } catch (NoSuchMethodException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
+        } catch (ClassNotFoundException | InstantiationException | InvocationTargetException | NoSuchMethodException |
+                 IllegalAccessException e) {
             e.printStackTrace();
         }
     }

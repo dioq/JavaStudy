@@ -1,4 +1,4 @@
-package com.my.dynamic_proxy.study02.proxy.netutil;
+package com.my.network_proxy.study01;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -16,8 +16,6 @@ public class HttpUtil {
         try {
             URL url = new URL(requestUrl);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-            //设置请求头
-            conn.setRequestProperty("User-Agent", "Mozilla/4.0 (compatible; MSIE 7.0; NT 5.1; GTB5; .NET CLR 2.0.50727; CIBA)");
             conn.setDoOutput(true);
             conn.setDoInput(true);
             conn.setRequestMethod(requestMethod);

@@ -33,7 +33,7 @@ public class FieldDemo {
             //private String address
             Field addressField = c.getDeclaredField("address");
             System.out.println(addressField);
-        }catch (ClassNotFoundException | NoSuchFieldException e){
+        } catch (ClassNotFoundException | NoSuchFieldException e) {
             e.printStackTrace();
         }
 

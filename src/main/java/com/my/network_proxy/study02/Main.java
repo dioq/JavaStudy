@@ -1,6 +1,6 @@
-package com.my.dynamic_proxy.study02;
+package com.my.network_proxy.study02;
 
-import com.my.dynamic_proxy.study02.proxy.ProxyUtil;
+import com.my.network_proxy.study02.proxy.ProxyUtil;
 
 public class Main {
 
