@@ -5,33 +5,152 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/Shopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/ShoppingImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/ShoppingHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/TestDynamic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/ProxyShopping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/TestStatic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/AES/AESUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/AES/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/DES/DESUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/DES/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/RSA/RSAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/RSA/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/base64/DecodeBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/base64/EncodeBase64.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/hash/HashUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/hash/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/hash/sha/HmacUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/hash/sha/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/FileUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/Obj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study01/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/ProxyRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/ProxyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/ProxyUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/Obj.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/ProxyRoot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study02/proxy/netutil/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/netutil/HttpUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study03/ProxyAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyAuthenticator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/dynamic_proxy/study03/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ArrayTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ArrayTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/my/reflect/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/Person.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/Person.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/PersonProtos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/PersonProtos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/Test2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/util/BytesHexUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/util/BytesHexUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/protobuf/util/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/protobuf/util/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study01/SerialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study01/SerialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study01/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study01/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study03/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/SerialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study02/SerialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study02/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study02/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study02/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/SocketClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study03/SocketClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/SocketServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study03/SocketServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Serializable/study03/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Serializable/study03/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/CachedThreadPool/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/CachedThreadPool/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/FixedThreadPool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/FixedThreadPool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/ScheduledThreadPool/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/ScheduledThreadPool/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/SingleThreadExecutor/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/SingleThreadExecutor/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/study01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/study01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/study02/MyCustomPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/study02/MyCustomPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/study02/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/study02/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/ThreadPool/study02/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ThreadPool/study02/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/URLEncoder/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/URLEncoder/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Unicode/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Unicode/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/Unicode/UnicodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/Unicode/UnicodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/auxiliary/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/auxiliary/ClassUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/auxiliary/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/auxiliary/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/base64/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crypto/base64/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/bytes/BytesHexUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/bytes/DataFormatUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/bytes/BytesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/bytes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/certificate2format/CertificateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/certificate2format/CertificateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/certificate2format/CertificateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/certificate2format/CertificateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/collection/ArrayList/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/ArrayList/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/enumdemo/study01/Study01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/enumdemo/study01/Study01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/enumdemo/study02/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/enumdemo/study02/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/enumdemo/study02/WeekDay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/enumdemo/study02/WeekDay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/enumdemo/study02/another/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/enumdemo/study02/another/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/file_io/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/file_io/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/file_io/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/file_io/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/file_io/target.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/file_io/target.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/gzip/GZIPUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/gzip/GZIPUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/gzip/TestGZIP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/gzip/TestGZIP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study01/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study01/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study01/Javassist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study01/Javassist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study02/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study02/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study03/Hook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study03/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/hook/study03/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study03/Target.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/inner_class/Outer7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/inner_class/Outer7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/SSLUtil/CertificateManagers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/SSLUtil/CertificateManagers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/SSLUtil/MyHostnameVerifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/SSLUtil/MyHostnameVerifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/SSLUtil/MyTrustManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/SSLUtil/MyTrustManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/SSLUtil/SSLConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/SSLUtil/SSLConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/SSLUtil/SSLTrustWhich.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/SSLUtil/SSLTrustWhich.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/http/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/http/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/http/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/http/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/https/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/https/HttpsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/https/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/https/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/https2ways/HttpsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/https2ways/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/https2ways/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/proxy/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/proxy/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/proxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/proxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/sslping/HttpsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/sslping/HttpsUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network/sslping/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network/sslping/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/FileUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study01/FileUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study01/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study01/model/Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study01/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study01/model/ProxyRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study02/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/ProxyUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study02/proxy/ProxyUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/Obj.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study02/proxy/model/Obj.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/model/ProxyRoot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study02/proxy/model/ProxyRoot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study02/proxy/netutil/HttpUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study02/proxy/netutil/HttpUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyAuthenticator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study03/ProxyAuthenticator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/network_proxy/study03/ProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/network_proxy/study03/ProxyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/Shopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/Shopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/ShoppingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/ShoppingImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/ShoppingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/ShoppingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic_proxy/TestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/TestDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/ProxyShopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static_proxy/ProxyShopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy/TestStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static_proxy/TestStatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/random/RandomDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/random/RandomDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/IntegerTest01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/IntegerTest01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/IntegerTest02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/IntegerTest02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/IntegerTest03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/IntegerTest03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/ObjectTest04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/ObjectTest04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/ObjectTest05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/ObjectTest05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/ObjectTest06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/ObjectTest06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/ObjectTest07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/ObjectTest07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/ObjectTest08.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/ObjectTest08.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reference/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reference/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ArrayTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ArrayTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/ConstructorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/FieldDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/MethodDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/singleton/SingletonDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/singleton/SingletonDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study01/Client01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study01/Client01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study01/Server01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study01/Server01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study02/Client02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study02/Client02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study02/Server02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study02/Server02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study03/Client03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study03/Client03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study03/Server03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study03/Server03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study04/Client04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study04/Client04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/socket/study04/Server04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/socket/study04/Server04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/string/Str01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/string/Str01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/string/Str_substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/string/Str_substring.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/string/Test01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/string/Test01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/string/Test02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/string/Test02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/string/Test03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/string/Test03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/time/Study.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/time/Study.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/treemap/Study01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/treemap/Study01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/verificationcode/IdentifeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/my/verificationcode/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/001.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/images/003.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,30 +188,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lzd/Repository/JavaStudy/src/main/java/com/my/proxy/static_proxy&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/lzd/Repository/JavaStudy/src/main/java/com/my/crypto/RSA",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/proxy/static_proxy" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/proxy/dynamic" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/hook/study03" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/hook" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/network/proxy" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/RSA" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/base64" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/DES" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/hash/md5" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/AES" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/my/Serializable" />
@@ -100,14 +219,14 @@
       <recent name="F:\ideaProjects\JavaStudy\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.crypto.base64" />
       <recent name="com.my.network.https2ways" />
       <recent name="com.my.network.httpsping" />
       <recent name="com.my.network.https" />
       <recent name="com.my.Serializable.protobuf.util" />
-      <recent name="com.my.file_io" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FieldDemo2">
+  <component name="RunManager" selected="Application.Test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -119,12 +238,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.reflect.FieldDemo2" />
+    <configuration name="AESUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crypto.AES.AESUtils" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.reflect.*" />
+          <option name="PATTERN" value="com.crypto.AES.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,12 +251,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FieldDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.reflect.FieldDemo3" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crypto.RSA.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.reflect.*" />
+          <option name="PATTERN" value="com.crypto.RSA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,12 +264,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.my.reflect.MethodDemo" />
+    <configuration name="com.base.bytes.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.bytes.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.my.reflect.*" />
+          <option name="PATTERN" value="com.base.bytes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.crypto.AES.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crypto.AES.Test" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crypto.AES.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.crypto.DES.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.crypto.DES.Test" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.crypto.DES.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,9 +305,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FieldDemo2" />
-        <item itemvalue="Application.FieldDemo3" />
-        <item itemvalue="Application.MethodDemo" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.com.crypto.DES.Test" />
+        <item itemvalue="Application.com.crypto.AES.Test" />
+        <item itemvalue="Application.AESUtils" />
+        <item itemvalue="Application.com.base.bytes.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +407,14 @@
       <workItem from="1702461690341" duration="120000" />
       <workItem from="1702729018514" duration="1131000" />
       <workItem from="1702802451257" duration="7370000" />
-      <workItem from="1704179236133" duration="7400000" />
+      <workItem from="1704179236133" duration="9464000" />
+      <workItem from="1704277170455" duration="4203000" />
+      <workItem from="1706277786183" duration="348000" />
+      <workItem from="1706342232185" duration="2365000" />
+      <workItem from="1715405382380" duration="674000" />
+      <workItem from="1715413814142" duration="3713000" />
+      <workItem from="1715678168878" duration="418000" />
+      <workItem from="1715688945461" duration="11080000" />
     </task>
     <servers />
   </component>
