@@ -13,9 +13,12 @@ public class TestDynamic {
         // 正常购物
         System.out.println(Arrays.toString(women.doShopping(100)));
         System.out.println("==============================================");
-        // 招代理
+//        System.out.println(Shopping.class);
+//        System.out.println(ShoppingImpl.class);
+//        System.out.println(women.getClass());
+        // 动态代理
         women = (Shopping) Proxy.newProxyInstance(
-                Shopping.class.getClassLoader(),
+                women.getClass().getClassLoader(),
                 women.getClass().getInterfaces(),
                 new ShoppingHandler(women));
 

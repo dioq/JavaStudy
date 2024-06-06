@@ -13,13 +13,6 @@ public class RSAUtil {
 
     private static final String CIPHER_ALGORITHM = "RSA/ECB/PKCS1Padding";
 
-    public static KeyPair getKeyPair() throws NoSuchAlgorithmException {
-        KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-        keyPairGenerator.initialize(2048);
-        KeyPair keyPair = keyPairGenerator.generateKeyPair();
-        return keyPair;
-    }
-
     //公钥加密
     public static byte[] encrypt(byte[] plainText) {
         try {
@@ -27,11 +20,11 @@ public class RSAUtil {
             X509EncodedKeySpec keySpec = new X509EncodedKeySpec(keyBytes);
             KeyFactory keyFactory = KeyFactory.getInstance("RSA");
             PublicKey publicKey = keyFactory.generatePublic(keySpec);
+//            System.out.println(publicKey);
 
             Cipher cipher = Cipher.getInstance(CIPHER_ALGORITHM);
             cipher.init(Cipher.ENCRYPT_MODE, publicKey);
-            byte[] bytes = cipher.doFinal(plainText);
-            return bytes;
+            return cipher.doFinal(plainText);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -45,11 +38,11 @@ public class RSAUtil {
             PKCS8EncodedKeySpec keySpec = new PKCS8EncodedKeySpec(keyBytes);
             KeyFactory keyFactory = KeyFactory.getInstance("RSA");
             PrivateKey privateKey = keyFactory.generatePrivate(keySpec);
+//            System.out.println(privateKey.getEncoded());
 
             Cipher cipher = Cipher.getInstance(CIPHER_ALGORITHM);
             cipher.init(Cipher.DECRYPT_MODE, privateKey);
-            byte[] bytes = cipher.doFinal(ciphertext);
-            return bytes;
+            return cipher.doFinal(ciphertext);
         } catch (Exception e) {
             e.printStackTrace();
         }

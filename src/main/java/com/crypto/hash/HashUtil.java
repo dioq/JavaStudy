@@ -6,7 +6,6 @@ import java.security.NoSuchAlgorithmException;
 public class HashUtil {
 
     public static String md5(String plainText) {
-
         return encrypto(plainText, "MD5");
     }
 
