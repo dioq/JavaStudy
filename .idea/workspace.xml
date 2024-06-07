@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study04/DoTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study04/ProxyObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study04/TargetObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study04/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/ECC/ECCUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/crypto/ECC/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic02/Client2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic02/LogHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static02/Client1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static02/UserServiceProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/ShoppingImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/ShoppingImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/TestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/TestDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/singleton/SingletonDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/singleton/SingletonDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crypto/RSA/RSAUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crypto/RSA/RSAUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/crypto/hash/HashUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/crypto/hash/HashUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/ShoppingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/ShoppingHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic_proxy/TestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/TestDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/static_proxy/ProxyShopping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static01/ProxyShopping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/static_proxy/TestStatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/static01/TestStatic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,8 +27,8 @@
       <list>
         <option value="FxmlFile" />
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -54,23 +53,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lzd/Repository/JavaStudy/src/main/java/com/base/hook",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lzd/Repository/JavaStudy/src/main/java/com/base/hook&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/java/com/base/hook" />
@@ -92,7 +91,7 @@
       <recent name="com.my.Serializable.protobuf.util" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Client2">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -100,6 +99,32 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.proxy.static02.Client1" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.proxy.static02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.proxy.dynamic02.Client2" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.proxy.dynamic02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HookExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.hook.study04.HookExample" />
+    <configuration name="Javassist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.hook.study01.Javassist" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.hook.study04.*" />
+          <option name="PATTERN" value="com.base.hook.study01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,32 +174,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.base.hook.study04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDynamic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.proxy.dynamic_proxy.TestDynamic" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.proxy.dynamic_proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.base.hook.study03.Hook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.hook.study03.Hook" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.hook.study03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -184,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.TestDynamic" />
-        <item itemvalue="Application.com.base.hook.study03.Hook" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client1" />
         <item itemvalue="Application.Hook" />
+        <item itemvalue="Application.Javassist" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -294,7 +293,8 @@
       <workItem from="1715413814142" duration="3713000" />
       <workItem from="1715678168878" duration="418000" />
       <workItem from="1715688945461" duration="24643000" />
-      <workItem from="1717665150600" duration="7913000" />
+      <workItem from="1717665150600" duration="8087000" />
+      <workItem from="1717734217970" duration="8522000" />
     </task>
     <servers />
   </component>

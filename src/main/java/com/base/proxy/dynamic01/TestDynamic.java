@@ -1,4 +1,4 @@
-package com.base.proxy.dynamic_proxy;
+package com.base.proxy.dynamic01;
 
 import com.base.proxy.Shopping;
 import com.base.proxy.ShoppingImpl;

@@ -1,4 +1,4 @@
-package com.base.proxy.static_proxy;
+package com.base.proxy.static01;
 
 import com.base.proxy.Shopping;
 import com.base.proxy.ShoppingImpl;
