@@ -17,32 +17,32 @@ public class ConstructorDemo {
     public static void main(String[] args) {
         try {
             //获取Class对象
-            Class c = null;//包名.类名
-            c = Class.forName("com.base.reflect.Person");
+            Class<?> c = null;//包名.类名
+            c = Class.forName("com.base.reflect.target.Person");
 
             //获取所有的构造方法
             //Constructor[] cons = c.getConstructors();
-            Constructor[] cons = c.getDeclaredConstructors();
-            for (Constructor con : cons) {
+            Constructor<?>[] cons = c.getDeclaredConstructors();
+            for (Constructor<?> con : cons) {
                 System.out.println(con);
             }
 
             System.out.println("------------------------");
             //获取一个构造方法
             //public Person()
-            Constructor con1 = c.getConstructor(null);
+            Constructor<?> con1 = c.getConstructor(null);
             System.out.println(con1);
 
             //public Person(String name)
-            Constructor con2 = c.getConstructor(String.class);
+            Constructor<?> con2 = c.getConstructor(String.class);
             System.out.println(con2);
 
             //private Person(String name, int age)
-            Constructor con3 = c.getDeclaredConstructor(String.class, int.class);
+            Constructor<?> con3 = c.getDeclaredConstructor(String.class, int.class);
             System.out.println(con3);
 
             //public Person(String name, int age, String address)
-            Constructor con4 = c.getDeclaredConstructor(String.class, int.class, String.class);
+            Constructor<?> con4 = c.getDeclaredConstructor(String.class, int.class, String.class);
             System.out.println(con4);
         } catch (ClassNotFoundException | NoSuchMethodException e) {
             e.printStackTrace();

@@ -19,10 +19,10 @@ public class FieldDemo2 {
     public static void main(String[] args) {
         try {
             //1,获取Class对象
-            Class c = Class.forName("com.base.reflect.Person");
+            Class<?> c = Class.forName("com.base.reflect.target.Person");
             //2，获取构造方法
             //public Person(String name)
-            Constructor con = c.getConstructor(String.class);
+            Constructor<?> con = c.getConstructor(String.class);
             //3，通过构造方法，创建对象
             Object obj = con.newInstance("小明");
             //4，获取指定的成员变量

@@ -20,7 +20,7 @@ public class MethodDemo {
     public static void main(String[] args) {
         try {
             //获取Class类
-            Class c = Class.forName("com.base.reflect.Person");
+            Class<?> c = Class.forName("com.base.reflect.target.Person");
 
             //获取多个方法
             //Method[] methods = c.getMethods();

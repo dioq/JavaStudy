@@ -15,7 +15,7 @@ public class FieldDemo {
     public static void main(String[] args) {
         try {
             //获取Class对象
-            Class c = Class.forName("com.base.reflect.Person");
+            Class<?> c = Class.forName("com.base.reflect.target.Person");
 
             //获取成员变量
             //多个变量

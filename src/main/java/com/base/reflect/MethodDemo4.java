@@ -9,7 +9,7 @@ public class MethodDemo4 {
      * */
     public static void main(String[] args) {
         try {
-            Class<?> cla = Class.forName("com.base.reflect.Person");
+            Class<?> cla = Class.forName("com.base.reflect.target.Person");
             Method method = cla.getMethod("method6", String.class);
             String result = (String) method.invoke(null, "a_test_valuex");
             System.out.println("result: " + result);

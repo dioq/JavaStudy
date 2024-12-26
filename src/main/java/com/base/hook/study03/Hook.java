@@ -7,7 +7,7 @@ import javassist.CtMethod;
 public class Hook {
     public static void main(String[] args) throws Exception {
         ClassPool pool = ClassPool.getDefault();
-        CtClass cc = pool.get("com.my.hook.study03.Target");
+        CtClass cc = pool.get("com.base.hook.study03.Target");
         CtMethod ctMethod = cc.getDeclaredMethod("method1");
 
         // 打印传参数

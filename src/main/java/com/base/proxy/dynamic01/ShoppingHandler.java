@@ -2,6 +2,7 @@ package com.base.proxy.dynamic01;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
+import java.lang.reflect.Proxy;
 
 public class ShoppingHandler implements InvocationHandler {
 
@@ -48,5 +49,13 @@ public class ShoppingHandler implements InvocationHandler {
         }
 
         return null;
+    }
+
+    // 调用Proxy.newProxyInstance即可生成一个代理对象
+    public static Object newProxyInstance(Object object) {
+        return Proxy.newProxyInstance(
+                object.getClass().getClassLoader(),
+                object.getClass().getInterfaces(),
+                new ShoppingHandler(object));
     }
 }

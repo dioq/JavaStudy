@@ -16,10 +16,10 @@ public class ConstructorDemo2 {
     public static void main(String[] args) {
         try {
             //1,获取到Class对象
-            Class c = Class.forName("com.base.reflect.Person");//包名.类名
+            Class<?> c = Class.forName("com.base.reflect.target.Person");//包名.类名
             //2,获取指定的构造方法
             //private Person(String name, int age)
-            Constructor con = c.getDeclaredConstructor(String.class, int.class);
+            Constructor<?> con = c.getDeclaredConstructor(String.class, int.class);
             //3,暴力反射
             con.setAccessible(true);//取消 Java 语言访问检查
 

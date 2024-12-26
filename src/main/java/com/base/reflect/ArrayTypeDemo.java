@@ -22,9 +22,9 @@ public class ArrayTypeDemo {
     }
 
     static void printComponentType(Object array) {
-        Class arrayClass = array.getClass();
+        Class<?> arrayClass = array.getClass();
         String arrayName = arrayClass.getName();
-        Class componentClass = arrayClass.getComponentType();
+        Class<?> componentClass = arrayClass.getComponentType();
         String componentName = componentClass.getName();
         System.out.println("ArrayClass:" + arrayClass + "  ||||  ArrayName: " + arrayName + "  ||||| Component: "
                 + componentName);
@@ -33,7 +33,7 @@ public class ArrayTypeDemo {
 
         //生成一个新的数组
         Object result = Array.newInstance(componentClass, 10);
-        Class resultClass = result.getClass();
+        Class<?> resultClass = result.getClass();
         System.out.println("resultClass : " + resultClass);
 
         System.out.println("====================== end ======================");

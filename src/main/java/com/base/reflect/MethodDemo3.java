@@ -18,10 +18,10 @@ public class MethodDemo3 {
     public static void main(String[] args) {
         try {
             //1， 获取Class对象
-            Class c = Class.forName("com.base.reflect.Person");
+            Class<?> c = Class.forName("com.base.reflect.target.Person");
             //2,获取构造方法
             //public Person(String name, int age, String address){
-            Constructor con = c.getConstructor(String.class, int.class, String.class);
+            Constructor<?> con = c.getConstructor(String.class, int.class, String.class);
             //3，通过构造方法，创建对象
             Object obj = con.newInstance("小明", 23, "哈尔滨");
             //4，获取指定的方法
