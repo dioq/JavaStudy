@@ -5,35 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
-      <change afterPath="$PROJECT_DIR$/Generated_-1724984733.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/ASM/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/ASM/Generator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/ASM/MyClassVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/SubClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/func_param/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/interface_study/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/interface_study/MammalInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ClassInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/hook/study01/Javassist.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study01/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study02/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/hook/study03/Hook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/hook/study03/Hook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/ShoppingHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/ShoppingHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/TestDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/proxy/dynamic01/TestDynamic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/ArrayTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ArrayTypeDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/Person.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +35,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="1kR4ShebI05KZIIHESggQ7gMwvk" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,20 +49,31 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+<<<<<<< HEAD
     &quot;last_opened_file_path&quot;: &quot;/Users/lzd/Repository/JavaStudy/src/main/java/com/base/reflect/target&quot;,
+=======
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/d/repository/JavaStudy&quot;,
+>>>>>>> refs/remotes/origin/main
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+<<<<<<< HEAD
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+=======
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+>>>>>>> refs/remotes/origin/main
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -113,7 +98,11 @@
       <recent name="com.my.Serializable.protobuf.util" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager">
+=======
+  <component name="RunManager" selected="Application.DataType">
+>>>>>>> refs/remotes/origin/main
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -125,12 +114,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+=======
+    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.proxy.static02.Client1" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.proxy.static02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.proxy.dynamic02.Client2" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.proxy.dynamic02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.DataType" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.reflect.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.hook.study02.Hook" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.hook.study02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Javassist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.hook.study01.Javassist" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.base.hook.study01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+>>>>>>> refs/remotes/origin/main
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.base.func_param.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
+<<<<<<< HEAD
           <option name="PATTERN" value="com.base.func_param.*" />
+=======
+          <option name="PATTERN" value="com.base.hook.study04.*" />
+>>>>>>> refs/remotes/origin/main
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,7 +201,15 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Application.Test" />
+=======
+        <item itemvalue="Application.DataType" />
+        <item itemvalue="Application.Client2" />
+        <item itemvalue="Application.Client1" />
+        <item itemvalue="Application.Hook" />
+        <item itemvalue="Application.Javassist" />
+>>>>>>> refs/remotes/origin/main
       </list>
     </recent_temporary>
   </component>
