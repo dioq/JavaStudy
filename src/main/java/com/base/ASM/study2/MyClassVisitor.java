@@ -1,8 +1,8 @@
 package com.base.ASM;
 
-import jdk.internal.org.objectweb.asm.ClassVisitor;
-import jdk.internal.org.objectweb.asm.MethodVisitor;
-import jdk.internal.org.objectweb.asm.Opcodes;
+import org.objectweb.asm.ClassVisitor;
+import org.objectweb.asm.MethodVisitor;
+import org.objectweb.asm.Opcodes;
 
 // 重写 Visitor 类
 public class MyClassVisitor extends ClassVisitor implements Opcodes {
@@ -39,7 +39,7 @@ public class MyClassVisitor extends ClassVisitor implements Opcodes {
                 mv.visitLdcInsn("end"); // 方法在返回之前，打印"end"
                 mv.visitMethodInsn(INVOKEVIRTUAL, "java/io/PrintStream", "println", "(Ljava/lang/String;)V", false);
             }
-            System.out.println(opcode);
+//            System.out.println(opcode);
             mv.visitInsn(opcode);
         }
     }
