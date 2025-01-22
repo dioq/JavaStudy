@@ -1,23 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="证">
+    <list default="true" id="9c2479f0-da1d-4851-b584-a91d9217f763" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Map/Study01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/Map/Study02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo2/CallFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo2/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo2/MethodBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/uuid/Study01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/base/varType/study01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/MyClassLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/study1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/study1/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t1/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t2/Box.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t2/Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t2/Window.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/javassist/t3/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/CallFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/MethodBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/NewTarget.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Person2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/T3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/Test2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test2/CallFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test2/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test3/MethodBridge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test3/ReflectionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test3/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test3/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Generated_-1724984733.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study1/TargetNew.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study1/Template.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study2/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/study2/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study2/Generator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/study2/Generator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study2/MyClassVisitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bytecode/ASM/study2/MyClassVisitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/ASM/study2/file/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo1/AbstractClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/SubClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/abstract_study/demo1/SubClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/auxiliary/ClassUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/auxiliary/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/Test2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t1/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t1/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t2/Box.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t2/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t2/Point.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t2/Window.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/javassist/t3/Test1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/ConstructorDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/FieldDemo2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodDemo4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/base/reflect/MethodInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/MethodHook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/MethodHook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/Pine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/Pine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
-        <option value="Enum" />
         <option value="Interface" />
-        <option value="JavaFXApplication" />
         <option value="Class" />
       </list>
     </option>
@@ -25,20 +110,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\apache-maven-3.6.3\conf\settings.xml" />
+        <option name="customMavenHome" value="/usr/local/Cellar/maven/3.9.9/libexec" />
+        <option name="localRepository" value="$MAVEN_REPOSITORY$" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="1kR4ShebI05KZIIHESggQ7gMwvk" />
+  <component name="ProjectId" id="2qpuqNEFRTBb7elo3OwsQBRacND" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -46,104 +131,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.DataType.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-<<<<<<< HEAD
-    &quot;last_opened_file_path&quot;: &quot;/Users/lzd/Repository/JavaStudy/src/main/java/com/base/reflect/target&quot;,
-=======
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/d/repository/JavaStudy&quot;,
->>>>>>> refs/remotes/origin/main
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-<<<<<<< HEAD
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-=======
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
->>>>>>> refs/remotes/origin/main
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.MethodInfo.executor": "Run",
+    "Application.ReflectionExample.executor": "Run",
+    "Application.Study01.executor": "Run",
+    "Application.T3.executor": "Run",
+    "Application.Test.executor": "Run",
+    "Application.Test2.executor": "Run",
+    "Application.com.test3.Test.executor": "Run",
+    "Application.study01.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-23",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lzd/repository/JavaStudy/src/main/java/com/test2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/lzd/repository/JavaStudy/m5/src/main/java/cn/my/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3413793",
+    "settings.editor.selected.configurable": "settings.sync",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/base/reflect/target" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/base/hook" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/RSA" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/base64" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/crypto/DES" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/test2" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/test" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/abstract_study/use" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/my/Serializable" />
-      <recent name="F:\ideaProjects\JavaStudy\src\main\java\com\my\verificationcode\Tess4J\dist" />
-      <recent name="F:\ideaProjects\JavaStudy\src\main" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/base/ASM" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.crypto.base64" />
-      <recent name="com.my.network.https2ways" />
-      <recent name="com.my.network.httpsping" />
-      <recent name="com.my.network.https" />
-      <recent name="com.my.Serializable.protobuf.util" />
+      <recent name="com.base.classLoader" />
+      <recent name="com.base.ASM" />
+      <recent name="com.base.ASM.study1" />
     </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager">
-=======
-  <component name="RunManager" selected="Application.DataType">
->>>>>>> refs/remotes/origin/main
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-<<<<<<< HEAD
-=======
-    <configuration name="Client1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.proxy.static02.Client1" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.proxy.static02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.proxy.dynamic02.Client2" />
-      <module name="JavaStudy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.base.proxy.dynamic02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DataType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.reflect.DataType" />
+  <component name="RunManager" selected="Application.com.test3.Test">
+    <configuration name="MethodInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.reflect.MethodInfo" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
@@ -155,12 +193,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.hook.study02.Hook" />
+    <configuration name="ReflectionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test3.ReflectionExample" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.hook.study02.*" />
+          <option name="PATTERN" value="com.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +206,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Javassist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.hook.study01.Javassist" />
+    <configuration name="Study01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.base.uuid.Study01" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.base.hook.study01.*" />
+          <option name="PATTERN" value="com.base.uuid.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,17 +219,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
->>>>>>> refs/remotes/origin/main
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.base.func_param.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.test2.Test" />
       <module name="JavaStudy" />
       <extension name="coverage">
         <pattern>
-<<<<<<< HEAD
-          <option name="PATTERN" value="com.base.func_param.*" />
-=======
-          <option name="PATTERN" value="com.base.hook.study04.*" />
->>>>>>> refs/remotes/origin/main
+          <option name="PATTERN" value="com.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test3.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test3.Test" />
+      <module name="JavaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,157 +247,85 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
+        <item itemvalue="Application.com.test3.Test" />
+        <item itemvalue="Application.ReflectionExample" />
         <item itemvalue="Application.Test" />
-=======
-        <item itemvalue="Application.DataType" />
-        <item itemvalue="Application.Client2" />
-        <item itemvalue="Application.Client1" />
-        <item itemvalue="Application.Hook" />
-        <item itemvalue="Application.Javassist" />
->>>>>>> refs/remotes/origin/main
+        <item itemvalue="Application.MethodInfo" />
+        <item itemvalue="Application.Study01" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="SvnConfiguration">
-    <configuration />
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b08e8d0f-d564-486c-8e6c-c98df85e4973" name="Default Changelist" comment="" />
-      <created>1605650071806</created>
+      <changelist id="9c2479f0-da1d-4851-b584-a91d9217f763" name="Changes" comment="" />
+      <created>1735372027694</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1605650071806</updated>
-      <workItem from="1605650073187" duration="2456000" />
-      <workItem from="1605739818818" duration="1050000" />
-      <workItem from="1605797317498" duration="16000" />
-      <workItem from="1606744368764" duration="2428000" />
-      <workItem from="1606750299698" duration="10390000" />
-      <workItem from="1606779274438" duration="3815000" />
-      <workItem from="1606786718851" duration="81000" />
-      <workItem from="1606835918335" duration="4498000" />
-      <workItem from="1606843127713" duration="646000" />
-      <workItem from="1606918739508" duration="10443000" />
-      <workItem from="1607038178695" duration="359000" />
-      <workItem from="1610354946499" duration="723000" />
-      <workItem from="1610355688755" duration="4332000" />
-      <workItem from="1610361007446" duration="154000" />
-      <workItem from="1610361293464" duration="133000" />
-      <workItem from="1610361440222" duration="88000" />
-      <workItem from="1610361771098" duration="6470000" />
-      <workItem from="1610376114720" duration="3084000" />
-      <workItem from="1610381522596" duration="1615000" />
-      <workItem from="1610415711193" duration="5005000" />
-      <workItem from="1610502039944" duration="11170000" />
-      <workItem from="1610547886818" duration="3151000" />
-      <workItem from="1610558774207" duration="8110000" />
-      <workItem from="1610637538362" duration="922000" />
-      <workItem from="1610639493796" duration="14947000" />
-      <workItem from="1610702478706" duration="412000" />
-      <workItem from="1610704428991" duration="2795000" />
-      <workItem from="1610717466124" duration="2450000" />
-      <workItem from="1610720073983" duration="2867000" />
-      <workItem from="1610730017415" duration="11587000" />
-      <workItem from="1610786963998" duration="603000" />
-      <workItem from="1610788416305" duration="87000" />
-      <workItem from="1610788928051" duration="4193000" />
-      <workItem from="1610804750945" duration="18117000" />
-      <workItem from="1610866369412" duration="225000" />
-      <workItem from="1610892665018" duration="3180000" />
-      <workItem from="1610905572916" duration="5383000" />
-      <workItem from="1610989735205" duration="4540000" />
-      <workItem from="1611136148401" duration="355000" />
-      <workItem from="1611162315489" duration="373000" />
-      <workItem from="1611219546320" duration="26000" />
-      <workItem from="1611245326052" duration="20171000" />
-      <workItem from="1611489790570" duration="9766000" />
-      <workItem from="1611625127483" duration="21987000" />
-      <workItem from="1611700498701" duration="16000" />
-      <workItem from="1611755265640" duration="5905000" />
-      <workItem from="1611801173641" duration="3797000" />
-      <workItem from="1611863433741" duration="467000" />
-      <workItem from="1611985776838" duration="401000" />
-      <workItem from="1614792612025" duration="19329000" />
-      <workItem from="1614812043062" duration="26000" />
-      <workItem from="1614869664257" duration="24440000" />
-      <workItem from="1621015805350" duration="518000" />
-      <workItem from="1621071016558" duration="3546000" />
-      <workItem from="1621239478661" duration="151000" />
-      <workItem from="1621240955113" duration="5909000" />
-      <workItem from="1621251526115" duration="2368000" />
-      <workItem from="1621265784152" duration="614000" />
-      <workItem from="1621795929908" duration="3973000" />
-      <workItem from="1621938097292" duration="31000" />
-      <workItem from="1621940428703" duration="1623000" />
-      <workItem from="1657718866100" duration="3614000" />
-      <workItem from="1657722809760" duration="1180000" />
-      <workItem from="1657947450158" duration="1043000" />
-      <workItem from="1657954084431" duration="2088000" />
-      <workItem from="1657956243203" duration="209000" />
-      <workItem from="1657956460394" duration="5578000" />
-      <workItem from="1658208205331" duration="154000" />
-      <workItem from="1658217202270" duration="237000" />
-      <workItem from="1658217449062" duration="201000" />
-      <workItem from="1658424467442" duration="39000" />
-      <workItem from="1660805855347" duration="610000" />
-      <workItem from="1669095613029" duration="7646000" />
-      <workItem from="1669228794321" duration="11876000" />
-      <workItem from="1669354179805" duration="568000" />
-      <workItem from="1689913927822" duration="167000" />
-      <workItem from="1689929299080" duration="861000" />
-      <workItem from="1690182361086" duration="1695000" />
-      <workItem from="1690280546338" duration="381000" />
-      <workItem from="1699514525921" duration="64000" />
-      <workItem from="1702461690341" duration="120000" />
-      <workItem from="1702729018514" duration="1131000" />
-      <workItem from="1702802451257" duration="7370000" />
-      <workItem from="1704179236133" duration="9464000" />
-      <workItem from="1704277170455" duration="4203000" />
-      <workItem from="1706277786183" duration="348000" />
-      <workItem from="1706342232185" duration="2365000" />
-      <workItem from="1715405382380" duration="674000" />
-      <workItem from="1715413814142" duration="3713000" />
-      <workItem from="1715678168878" duration="418000" />
-      <workItem from="1715688945461" duration="24643000" />
-      <workItem from="1717665150600" duration="8087000" />
-      <workItem from="1717734217970" duration="8676000" />
-      <workItem from="1718002442922" duration="8173000" />
-      <workItem from="1731052143061" duration="7609000" />
-      <workItem from="1731473556439" duration="2278000" />
-      <workItem from="1731918601978" duration="28000" />
-      <workItem from="1732088260916" duration="349000" />
-      <workItem from="1732107208743" duration="351000" />
-      <workItem from="1732528239574" duration="1790000" />
-      <workItem from="1732686367523" duration="2957000" />
-      <workItem from="1732867689926" duration="1896000" />
-      <workItem from="1732972433623" duration="689000" />
-      <workItem from="1733128654311" duration="1320000" />
-      <workItem from="1733304715753" duration="346000" />
-      <workItem from="1733305934303" duration="164000" />
-      <workItem from="1733381074926" duration="858000" />
-      <workItem from="1733736251022" duration="573000" />
-      <workItem from="1733746747885" duration="876000" />
+      <updated>1735372027694</updated>
+      <workItem from="1735372028725" duration="16685000" />
+      <workItem from="1735551360810" duration="286000" />
+      <workItem from="1735551655983" duration="5623000" />
+      <workItem from="1735624487824" duration="5744000" />
+      <workItem from="1735799322045" duration="36846000" />
+      <workItem from="1736146845521" duration="1413000" />
+      <workItem from="1736148271976" duration="2095000" />
+      <workItem from="1736150429676" duration="164000" />
+      <workItem from="1736150776670" duration="6455000" />
+      <workItem from="1736327297625" duration="3946000" />
+      <workItem from="1736422816959" duration="3669000" />
+      <workItem from="1736508707535" duration="1278000" />
+      <workItem from="1737109093256" duration="1044000" />
+      <workItem from="1737191176298" duration="3434000" />
+      <workItem from="1737349923905" duration="8312000" />
+      <workItem from="1737441684894" duration="11095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/m/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/m3/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/m4/src/main/java/cn/my/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../m5/src/main/java/cn/my/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/m5/src/main/java/cn/my/Main.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

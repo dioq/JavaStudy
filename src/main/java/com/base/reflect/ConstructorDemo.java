@@ -8,11 +8,11 @@ public class ConstructorDemo {
     /*
     在反射机制中，把类中的成员（构造方法、成员方法、成员变量）都封装成了对应的类进行表示。其中，构造方法使用类Constructor表示。可通过Class类中提供的方法获取构造方法
             返回一个构造方法
-    public Constructor<T> getConstructor(Class<?>... parameterTypes) 获取public修饰, 指定参数类型所对应的构造方法
-    public Constructor<T> getDeclaredConstructor(Class<?>... parameterTypes) 获取指定参数类型所对应的构造方法(包含私有的)
-    返回多个构造方法
-    public Constructor<?>[] getConstructors() 获取所有的public 修饰的构造方法
-    public Constructor<?>[] getDeclaredConstructors() 获取所有的构造方法(包含私有的)
+    public Constructor<T> getConstructor(Class<?>... parameterTypes)         获取本类与父类中除私有外的构造方法
+    public Constructor<T> getDeclaredConstructor(Class<?>... parameterTypes) 获取本类任意的构造(包含私有的)
+    返回所有构造方法
+    public Constructor<?>[] getConstructors()
+    public Constructor<?>[] getDeclaredConstructors()
     */
     public static void main(String[] args) {
         try {

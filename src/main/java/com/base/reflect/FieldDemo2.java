@@ -18,14 +18,9 @@ public class FieldDemo2 {
     */
     public static void main(String[] args) {
         try {
-            //1,获取Class对象
+            // 获取Class对象
             Class<?> c = Class.forName("com.base.reflect.target.Person");
-            //2，获取构造方法
-            //public Person(String name)
-            Constructor<?> con = c.getConstructor(String.class);
-            //3，通过构造方法，创建对象
-            Object obj = con.newInstance("小明");
-            //4，获取指定的成员变量
+            //获取指定的成员变量
             //public String name;
             Field nameField = c.getField("name");
             //public int age;
@@ -37,7 +32,14 @@ public class FieldDemo2 {
             Field weathField = c.getDeclaredField("weath");
             weathField.setAccessible(true); //取消 Java 语言访问检查
 
-            //5，通过方法，给指定对象的指定成员变量赋值或者获取值
+            // 生成一个 Object 便于测试
+            // 获取构造方法
+            //public Person(String name)
+            Constructor<?> con = c.getConstructor(String.class);
+            // 通过构造方法，创建对象
+            Object obj = con.newInstance("小明");
+
+            // 通过方法，给指定对象的指定成员变量赋值或者获取值
             //取值
             System.out.println("name = " + nameField.get(obj));
             System.out.println("age = " + ageField.get(obj));
@@ -46,8 +48,8 @@ public class FieldDemo2 {
 
             //赋值
             ageField.set(obj, 23);
-            addressField.set(obj, "凯利广场");
-            weathField.set(weathField.get(null), "150万");
+            addressField.set(obj, "York");
+            weathField.set(null, "150万");
 
             System.out.println("------------------------");
             System.out.println("name = " + nameField.get(obj));

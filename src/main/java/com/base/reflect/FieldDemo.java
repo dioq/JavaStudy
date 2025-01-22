@@ -6,11 +6,11 @@ public class FieldDemo {
     //4、通过反射获取成员变量并使用
     /*
     返回一个成员变量
-    public Field getField(String name) 获取指定的 public修饰的变量
-    public Field getDeclaredField(String name) 获取指定的任意变量
+    public Field getField(String name)          获取本类与父类中除私有外的变量
+    public Field getDeclaredField(String name)  获取本类任意的变量(包含私有的)
     返回多个成员变量
-    public Field[] getFields() 获取所有public 修饰的变量
-    public Field[] getDeclaredFields() 获取所有的 变量 (包含私有)
+    public Field[] getFields()
+    public Field[] getDeclaredFields()
     */
     public static void main(String[] args) {
         try {
@@ -36,6 +36,5 @@ public class FieldDemo {
         } catch (ClassNotFoundException | NoSuchFieldException e) {
             e.printStackTrace();
         }
-
     }
 }

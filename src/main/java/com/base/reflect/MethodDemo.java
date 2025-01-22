@@ -8,12 +8,12 @@ public class MethodDemo {
     在反射机制中，把类中的成员方法使用类Method表示。可通过Class类中提供的方法获取成员方法：
           返回获取一个方法：
     　　　 public Method getMethod(String name, Class<?>... parameterTypes)
-          获取public 修饰的方法
+          获取本类与父类中除私有外的方法
     　　　 public Method getDeclaredMethod(String name, Class<?>... parameterTypes)
-          获取任意的方法，包含私有的
+          获取本类任意的方法(包含私有的)
     　　　 参数1: name 要查找的方法名称； 参数2： parameterTypes 该方法的参数类型
           返回获取多个方法：
-    　　　 public Method[] getMethods() 获取本类与父类中所有public 修饰的方法
+    　　　 public Method[] getMethods() 获取本类与父类中除私有外的所有的方法
     　　　 public Method[] getDeclaredMethods() 获取本类中所有的方法(包含私有的)
     * */
 
