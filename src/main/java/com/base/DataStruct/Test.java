@@ -1,4 +1,4 @@
-package com.base.ArrayList;
+package com.base.DataStruct;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -12,7 +12,7 @@ public class Test {
         arrayList.add("a");
         arrayList.add("b");
         System.out.println(arrayList.toString());
-        //排序
+        // 排序
         Collections.sort(arrayList, new Comparator<String>() {
             @Override
             public int compare(String o1, String o2) {

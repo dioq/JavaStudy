@@ -7,11 +7,11 @@ import java.util.concurrent.Future;
 
 public class Main {
     /*
-        newFixedThreadPool
-        创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。
-        */
+     * newFixedThreadPool
+     * 创建一个定长线程池，可控制线程最大并发数，超出的线程会在队列中等待。
+     */
     public static void main(String[] args) {
-//        fixTheadPoolTest();
+        // fixTheadPoolTest();
         fixTheadPoolTest2();
     }
 
@@ -39,9 +39,10 @@ public class Main {
      * 使用execute提交的任务，但是execute方法没有返回值，所以无法判断任务知否被线程池执行成功
      *
      * 使用submit 方法来提交任务，它会返回一个future,那么我们可以通过这个future来判断任务是否执行成功，
-     * 通过future的get方法来获取返回值，get方法会阻塞住直到任务完成，而使用get(long timeout, TimeUnit unit)方法则会阻塞一段时间后立即返回，
+     * 通过future的get方法来获取返回值，get方法会阻塞住直到任务完成，而使用get(long timeout, TimeUnit
+     * unit)方法则会阻塞一段时间后立即返回，
      * 这时有可能任务没有执行完
-     * */
+     */
     public static void fixTheadPoolTest2() {
         ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
         for (int i = 0; i < 10; i++) {

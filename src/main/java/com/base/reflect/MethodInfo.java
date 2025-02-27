@@ -4,10 +4,19 @@ import java.lang.reflect.Method;
 
 public class MethodInfo {
     public static void main(String[] args) throws Exception {
-//            Method method = Person.class.getDeclaredMethod("method4", String.class);
-//            new MethodInfo().test(method);
-//            new MethodInfo().test1();
-        test3();
+        // Method method = MethodInfo.class.getDeclaredMethod("func2", int.class,
+        // Integer.class, String.class);
+        // test2(method);
+        // test3();
+        // test4();
+        // new MethodInfo().test1();
+        test10();
+    }
+
+    public static void test10() {
+        Object[] obj = new Object[] { 1, 2, 3 };
+        Class<?> clz = obj.getClass().getComponentType();// 获取数组的元素类型
+        System.out.println("className:" + clz.getName());
     }
 
     public void test1() {
@@ -23,7 +32,7 @@ public class MethodInfo {
         System.out.println("fileName:" + fileName);
     }
 
-    public void test3(Method method) {
+    public static void test2(Method method) {
         // 获取类名
         String className = method.getDeclaringClass().getName();
         System.out.println("className:" + className);
@@ -32,7 +41,7 @@ public class MethodInfo {
         String methodName = method.getName();
         System.out.println("methodName:" + methodName);
 
-        Class<?>[] parameterTypes = method.getParameterTypes(); //获取参数类型
+        Class<?>[] parameterTypes = method.getParameterTypes(); // 获取参数类型
         System.out.println("参数类型:");
         for (int i = 0; i < parameterTypes.length; i++) {
             Class<?> clz = parameterTypes[i];
@@ -44,11 +53,11 @@ public class MethodInfo {
 
         // 获取类方法的修饰器
         /*
-            修饰符在 Modifier 类中都被包装成一个 int 类型的数字，部分修饰符定义如下
-            public static final int PUBLIC           = 0x00000001;
-            public static final int PRIVATE          = 0x00000002;
-            public static final int PROTECTED        = 0x00000004;
-        **/
+         * 修饰符在 Modifier 类中都被包装成一个 int 类型的数字，部分修饰符定义如下
+         * public static final int PUBLIC = 0x00000001;
+         * public static final int PRIVATE = 0x00000002;
+         * public static final int PROTECTED = 0x00000004;
+         **/
         int modifier = method.getModifiers();
         System.out.println("modifier:" + modifier);
 
@@ -75,5 +84,46 @@ public class MethodInfo {
             parameterTypes[i] = args[i].getClass();
         }
         return parameterTypes;
+    }
+
+    public static void test4() throws NoSuchMethodException {
+        Method method = MethodInfo.class.getDeclaredMethod("func");
+        Class<?>[] parameterTypes = method.getParameterTypes(); // 获取参数类型
+        System.out.println("参数类型:");
+        if (parameterTypes == null || parameterTypes.length == 0) {
+            return;
+        }
+        for (int i = 0; i < parameterTypes.length; i++) {
+            Class<?> clz = parameterTypes[i];
+            System.out.println(i + " : " + clz);
+        }
+    }
+
+    public static void test5() throws NoSuchMethodException {
+        Method method = MethodInfo.class.getDeclaredMethod("func");
+        Method method2 = MethodInfo.class.getDeclaredMethod("func2", int.class, Integer.class, String.class);
+        Class<?>[] pTypes1 = method.getParameterTypes();
+        if (method.getParameterTypes().length == 0) {
+            System.out.println("is empty");
+        }
+        show(pTypes1);
+        System.out.println("===============");
+        Class<?>[] pTypes2 = method2.getParameterTypes();
+        show(pTypes2);
+    }
+
+    public static void show(Class<?>[] parameterTypes) {
+        for (int i = 0; i < parameterTypes.length; i++) {
+            Class<?> clz = parameterTypes[i];
+            System.out.println(i + " : " + clz);
+        }
+    }
+
+    public int func() {
+        return 10;
+    }
+
+    public int func2(int a, Integer b, String c) {
+        return a + b;
     }
 }

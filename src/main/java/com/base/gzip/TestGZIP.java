@@ -15,7 +15,11 @@ public class TestGZIP {
     }
 
     private static void test03() {
+        byte[] bytes1 = FileUtils.readBytes_from_localFile("C:\\Users\\zhend\\Desktop\\byte3");
+        assert bytes1 != null;
+        System.out.println("byte1 hex : " + DataFormatUtil.byteToHex(bytes1));
 
+        byte[] bytes2 = GZIPUtils.uncompress(bytes1);
     }
 
     private static void test02() {
