@@ -1,5 +1,6 @@
 .DS_Store
 .idea
-.metadata/
-src/main/Test/
+.metadata
+.vscode
 target/
+src/main/Test/
