@@ -1,4 +1,4 @@
-package com.base.Class_study;
+package com.base.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
@@ -46,7 +46,7 @@ public class ClassInfo {
         try {
             Class<?> cla = Class.forName("com.base.reflect.target.ReflectGenericDemo");
             // Method method = cla.getMethod("getStringList", (Class<?>) null);
-            Method method = cla.getDeclaredMethod("getStringList", null);
+            Method method = cla.getDeclaredMethod("getStringList");
             // 返回值 的泛型类型
             Type returnType = method.getGenericReturnType();
             if (returnType instanceof ParameterizedType) {
