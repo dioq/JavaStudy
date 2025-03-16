@@ -1,4 +1,4 @@
-package com.base.method;
+package com.base.JavaClass;
 
 public class Study01 {
     public static void main(String[] args) {
