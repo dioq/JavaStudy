@@ -5,48 +5,49 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 
 public class FieldDemo2 {
-    //5、通过反射，创建对象，获取指定的成员变量，进行赋值与获取值操作
+    // 5、通过反射，创建对象，获取指定的成员变量，进行赋值与获取值操作
     /*
-    获取成员变量，步骤如下:
-        1. 获取Class对象
-    　　 2. 获取构造方法
-    　　 3. 通过构造方法，创建对象
-         4. 获取指定的成员变量（私有成员变量，通过setAccessible(boolean flag)方法访问）
-         5. 通过方法，给指定对象的指定成员变量赋值或者获取值
-　　　　  public void set(Object obj, Object value)   在指定对象obj中，将此 Field 对象表示的成员变量设置为指定的新值
-　　　　  public Object get(Object obj)   返回指定对象obj中，此 Field 对象表示的成员变量的值
-    */
+     * 获取成员变量，步骤如下:
+     * 1. 获取Class对象
+     * 2. 获取构造方法
+     * 3. 通过构造方法，创建对象
+     * 4. 获取指定的成员变量（私有成员变量，通过setAccessible(boolean flag)方法访问）
+     * 5. 通过方法，给指定对象的指定成员变量赋值或者获取值
+     * public void set(Object obj, Object value) 在指定对象obj中，将此 Field
+     * 对象表示的成员变量设置为指定的新值
+     * public Object get(Object obj) 返回指定对象obj中，此 Field 对象表示的成员变量的值
+     */
     public static void main(String[] args) {
         try {
             // 获取Class对象
             Class<?> c = Class.forName("com.base.reflect.target.Person");
-            //获取指定的成员变量
-            //public String name;
+            // 获取指定的成员变量
+            // public String name;
             Field nameField = c.getField("name");
-            //public int age;
+            // public int age;
             Field ageField = c.getField("age");
-            //private String address;
+            // private String address;
             Field addressField = c.getDeclaredField("address");
-            addressField.setAccessible(true); //取消 Java 语言访问检查
+            addressField.setAccessible(true); // 取消 Java 语言访问检查
             // 类的静态属性, 没有生命周期,进程结束才释放
             Field weathField = c.getDeclaredField("weath");
-            weathField.setAccessible(true); //取消 Java 语言访问检查
+            weathField.setAccessible(true); // 取消 Java 语言访问检查
 
             // 生成一个 Object 便于测试
             // 获取构造方法
-            //public Person(String name)
+            // public Person(String name)
             Constructor<?> con = c.getConstructor(String.class);
             // 通过构造方法，创建对象
             Object obj = con.newInstance("小明");
 
             // 通过方法，给指定对象的指定成员变量赋值或者获取值
-            //取值
+            // 取值
             System.out.println("name = " + nameField.get(obj));
             System.out.println("age = " + ageField.get(obj));
             System.out.println("address = " + addressField.get(obj));
             System.out.println("weath = " + weathField.get(null));
 
-            //赋值
+            // 赋值
             ageField.set(obj, 23);
             addressField.set(obj, "York");
             weathField.set(null, "150万");
@@ -56,8 +57,8 @@ public class FieldDemo2 {
             System.out.println("age = " + ageField.get(obj));
             System.out.println("address = " + addressField.get(obj));
             System.out.println("weath = " + weathField.get(null));
-        } catch (ClassNotFoundException | InstantiationException | InvocationTargetException | NoSuchMethodException |
-                 IllegalAccessException | NoSuchFieldException e) {
+        } catch (ClassNotFoundException | InstantiationException | InvocationTargetException | NoSuchMethodException
+                | IllegalAccessException | NoSuchFieldException e) {
             e.printStackTrace();
         }
     }

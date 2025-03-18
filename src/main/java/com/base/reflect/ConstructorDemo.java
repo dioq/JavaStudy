@@ -30,7 +30,7 @@ public class ConstructorDemo {
             System.out.println("------------------------");
             //获取一个构造方法
             //public Person()
-            Constructor<?> con1 = c.getConstructor(null);
+            Constructor<?> con1 = c.getConstructor();
             System.out.println(con1);
 
             //public Person(String name)

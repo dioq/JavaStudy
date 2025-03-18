@@ -9,16 +9,16 @@ public class study01 {
     }
 
     /*
-    基本数据类型	封装数据类型	类型描述	字节数	范围
-    byte	Byte	整型	1	[-128, 127]
-    short	Short	整型	2	[- 32768, 32767] or [-2^15, 2^15-1]
-    int	    Integer	整型	4	[-2^31, 2^31-1]
-    long	Long	长整型	8	[-2^63, 2^63 -1]
-    float	Float	单精度浮点型	4	-
-    double	Double	双精度浮点型	8	-
-    char	Character	字符型	2	[0, 65535]
-    boolean	Boolean	布尔类型	>1	-
-    * */
+     * 基本数据类型 封装数据类型 类型描述 字节数 范围
+     * byte Byte 整型 1 [-128, 127]
+     * short Short 整型 2 [- 32768, 32767] or [-2^15, 2^15-1]
+     * int Integer 整型 4 [-2^31, 2^31-1]
+     * long Long 长整型 8 [-2^63, 2^63 -1]
+     * float Float 单精度浮点型 4 -
+     * double Double 双精度浮点型 8 -
+     * char Character 字符型 2 [0, 65535]
+     * boolean Boolean 布尔类型 >1 -
+     */
     public static void test1(Class<?> returnType, Object object) {
         if (returnType.equals(byte.class)) {
             Byte var_Byte = (Byte) object;
@@ -59,7 +59,7 @@ public class study01 {
     public static void test2() {
         try {
             Integer varInteger = 10;
-            //        varInt = varInteger.intValue();
+            // varInt = varInteger.intValue();
             Method method = Integer.class.getDeclaredMethod("intValue");
             Object result = method.invoke(varInteger);
             System.out.println(result);
@@ -72,4 +72,18 @@ public class study01 {
         }
     }
 
+    public static void test3() throws ClassNotFoundException {
+        String int_class = "java.lang.Integer";
+        Class<?> intClass = Class.forName(int_class);
+        if (intClass.equals(int.class)) {
+            System.out.println("intClass equals clz");
+        } else {
+            System.out.println("intClass not equals clz");
+        }
+    }
+
+    public static void test4() {
+        Class<?> intClass = Integer.TYPE;
+        System.out.println(intClass.getName()); // 输出：int
+    }
 }
