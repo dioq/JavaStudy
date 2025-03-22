@@ -1,4 +1,4 @@
-package com.base.JavaClass;
+package com.base.reflect;
 
 public class MethodInfo02 {
     public static void main(String[] args) {

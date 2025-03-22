@@ -1,4 +1,4 @@
-package com.base.Class_study.inner_class;
+package com.base.inner_class;
 
 /*
  * 三、静态内部类

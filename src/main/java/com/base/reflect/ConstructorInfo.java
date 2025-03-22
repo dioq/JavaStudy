@@ -1,4 +1,4 @@
-package com.base.JavaClass;
+package com.base.reflect;
 
 import java.lang.reflect.Constructor;
 
