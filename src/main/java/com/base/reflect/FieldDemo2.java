@@ -1,8 +1,8 @@
 package com.base.reflect;
 
-import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
+
+import com.base.reflect.target.Person;
 
 public class FieldDemo2 {
     // 5、通过反射，创建对象，获取指定的成员变量，进行赋值与获取值操作
@@ -32,35 +32,36 @@ public class FieldDemo2 {
             // 类的静态属性, 没有生命周期,进程结束才释放
             Field weathField = c.getDeclaredField("weath");
             weathField.setAccessible(true); // 取消 Java 语言访问检查
+            // public final
+            Field f5_Field = c.getDeclaredField("f5");
+            f5_Field.setAccessible(true); // 取消 Java 语言访问检查
+            System.out.println("f5_Field.getModifiers() :" + f5_Field.getModifiers());
 
             // 生成一个 Object 便于测试
-            // 获取构造方法
-            // public Person(String name)
-            Constructor<?> con = c.getConstructor(String.class);
-            // 通过构造方法，创建对象
-            Object obj = con.newInstance("小明");
+            Person obj = new Person("TOM");
 
-            // 通过方法，给指定对象的指定成员变量赋值或者获取值
+            System.out.println("----------- value 1-------------");
             // 取值
             System.out.println("name = " + nameField.get(obj));
             System.out.println("age = " + ageField.get(obj));
             System.out.println("address = " + addressField.get(obj));
             System.out.println("weath = " + weathField.get(null));
+            System.out.println("f5 = " + f5_Field.get(obj));
 
             // 赋值
             ageField.set(obj, 23);
-            addressField.set(obj, "York");
+            // addressField.set(obj, "York");
             weathField.set(null, "150万");
+            f5_Field.set(obj, 66);
 
-            System.out.println("------------------------");
+            System.out.println("----------- value 2-------------");
             System.out.println("name = " + nameField.get(obj));
             System.out.println("age = " + ageField.get(obj));
             System.out.println("address = " + addressField.get(obj));
             System.out.println("weath = " + weathField.get(null));
-        } catch (ClassNotFoundException | InstantiationException | InvocationTargetException | NoSuchMethodException
-                | IllegalAccessException | NoSuchFieldException e) {
+            System.out.println("f5 = " + f5_Field.get(obj));
+        } catch (ClassNotFoundException | IllegalAccessException | NoSuchFieldException e) {
             e.printStackTrace();
         }
     }
-
 }
