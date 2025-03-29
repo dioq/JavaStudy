@@ -23,13 +23,25 @@ public class Study01 {
     }
 
     public void func() {
+        System.out.println("============ func ==============");
         // 获取所有线程的栈堆跟踪集合
         Map<Thread, StackTraceElement[]> allStackTraces = Thread.getAllStackTraces();
         // 去map集合里面拿当前线程的栈堆跟踪信息数组
         StackTraceElement[] stackTraceElements = allStackTraces.get(Thread.currentThread());
-        System.out.println(Arrays.toString(stackTraceElements));
+        // System.out.println(Arrays.toString(stackTraceElements));
+        for (int i = 0; i < stackTraceElements.length; i++) {
+            StackTraceElement element = stackTraceElements[i];
+            // 获取类名
+            String className = element.getClassName();
+            // 获取方法名
+            String methodName = element.getMethodName();
+            String msg = String.format("%s->%s", className,methodName);
+            System.out.println(msg);
+        }
+    }
 
-        System.out.println("==========================");
+    public void func2() {
+        System.out.println("============ func2 ==============");
         String className = Thread.currentThread().getStackTrace()[2].getClassName();
         System.out.println("className:" + className);
         String methodName = Thread.currentThread().getStackTrace()[2].getMethodName();
