@@ -9,7 +9,6 @@ public class SingletonDemo {
     private SingletonDemo() {
     }
 
-    // 方法同步,调用效率低
     public static SingletonDemo getInstance() {
         if (instance == null) {
             synchronized (SingletonDemo.class) {

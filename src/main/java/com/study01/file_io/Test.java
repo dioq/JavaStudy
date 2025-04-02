@@ -1,29 +1,45 @@
 package com.study01.file_io;
 
+import java.io.File;
+
 public class Test {
 
     public static void main(String[] args) {
-//        String filePath = "F:\\log\\money.jpg";
-//        String desPath = "F:\\log\\image_bytes";
-//        FileUtils.fileBytes_to_localFile(filePath, desPath);
-
-//        String test_str = "this is only a test!";
-//        String desPath = "F:\\log\\test1.txt";
-//        FileUtils.write_to_localFile(test_str, desPath);
-
-//        String test_str = "this is only a test!";
-//        String desPath = "F:\\log\\test2.txt";
-//        FileUtils.write_toEnd_localFile(test_str, desPath);
-
-        readSelectedLine();
+        // test_write();
+        // test_read();
+        test_copy();
     }
 
-    public static void readSelectedLine() {
-        String path = "src/main/java/com/my/file_io/target.txt";
-        int totalNum = FileUtils.getTotalLines(path);
-        System.out.println("totalNum : " + totalNum);
-        String line = FileUtils.readLineByIndex(path, 8);
-        System.out.println(line);
+    public static void test_write() {
+        String path = "/tmp/test.txt";
+        String str = "this is only a test!";
+        try {
+            FileUtil.getInstance().write(new File(path), str.getBytes());
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 
+    public static void test_read() {
+        String path = "/tmp/test.txt";
+        try {
+            byte[] bytes = FileUtil.getInstance().read(new File(path));
+            String str = new String(bytes);
+            System.out.println(str);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static void test_copy() {
+        String srcPath = "/tmp/test.txt";
+        String dstPath = "/tmp/test2.txt";
+        File srcFile = new File(srcPath);
+        File dstFile = new File(dstPath);
+        try {
+            FileUtil.getInstance().copyFile(srcFile, dstFile);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
