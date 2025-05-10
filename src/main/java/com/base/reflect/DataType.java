@@ -3,7 +3,7 @@ package com.base.reflect;
 public class DataType {
 
     public static void main(String[] args) throws ClassNotFoundException {
-//        test1();
+ //       test1();
         test();
     }
 

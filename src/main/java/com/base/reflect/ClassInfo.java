@@ -10,14 +10,14 @@ import java.util.List;
 public class ClassInfo {
 
     /*
-    修饰符在 Modifier 类中都被包装成一个 int 类型的数字，部分修饰符定义如下
-    public static final int PUBLIC           = 0x00000001;
-    public static final int PRIVATE          = 0x00000002;
-    public static final int PROTECTED        = 0x00000004;
-    */
+     * 修饰符在 Modifier 类中都被包装成一个 int 类型的数字，部分修饰符定义如下
+     * public static final int PUBLIC = 0x00000001;
+     * public static final int PRIVATE = 0x00000002;
+     * public static final int PROTECTED = 0x00000004;
+     */
     public static void main(String[] args) {
-//        test1();
-        test2();
+        test1();
+        // test2();
     }
 
     public static void test1() {
@@ -26,7 +26,7 @@ public class ClassInfo {
             int modifyInt = cla.getModifiers();
             System.out.println(modifyInt);
 
-            //getPackage 方法获取类的包相关信息
+            // getPackage 方法获取类的包相关信息
             Package packageClazz = cla.getPackage();
             System.out.println(packageClazz.getName());
 
@@ -45,8 +45,8 @@ public class ClassInfo {
     public static void test2() {
         try {
             Class<?> cla = Class.forName("com.base.reflect.target.ReflectGenericDemo");
-//            Method method = cla.getMethod("getStringList", (Class<?>) null);
-            Method method = cla.getDeclaredMethod("getStringList", null);
+            // Method method = cla.getMethod("getStringList", (Class<?>) null);
+            Method method = cla.getDeclaredMethod("getStringList");
             // 返回值 的泛型类型
             Type returnType = method.getGenericReturnType();
             if (returnType instanceof ParameterizedType) {
@@ -54,8 +54,8 @@ public class ClassInfo {
                 Type[] typeArguments = type.getActualTypeArguments();
                 for (Type typeArgument : typeArguments) {
                     System.out.println(typeArgument);
-//                    Class<?> typeArgumentClass = (Class<?>) typeArgument;
-//                    System.out.println(typeArgumentClass);
+                    // Class<?> typeArgumentClass = (Class<?>) typeArgument;
+                    // System.out.println(typeArgumentClass);
                 }
             }
             System.out.println("---------------- 返回值 的泛型类型 ----------------");
@@ -68,8 +68,8 @@ public class ClassInfo {
                     Type[] parameterArgTypes = parameterizedType.getActualTypeArguments();
                     for (Type parameterArgType : parameterArgTypes) {
                         System.out.println(parameterArgType);
-//                        Class parameterArgClass = (Class) parameterArgType;
-//                        System.out.println("parameterArgClass = " + parameterArgClass);
+                        // Class parameterArgClass = (Class) parameterArgType;
+                        // System.out.println("parameterArgClass = " + parameterArgClass);
                     }
                 }
             }
@@ -82,8 +82,8 @@ public class ClassInfo {
                 Type[] fieldGenericTypes = fieldGenericType.getActualTypeArguments();
                 for (Type genericType : fieldGenericTypes) {
                     System.out.println(genericType);
-//                    Class fieldGenericTypeClass = (Class) genericType;
-//                    System.out.println(fieldGenericTypeClass);
+                    // Class fieldGenericTypeClass = (Class) genericType;
+                    // System.out.println(fieldGenericTypeClass);
                 }
             }
             System.out.println("---------------- 泛型变量类型 ----------------");
