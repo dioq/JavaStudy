@@ -35,8 +35,15 @@ public class Study01 {
             String className = element.getClassName();
             // 获取方法名
             String methodName = element.getMethodName();
-            String msg = String.format("%s->%s", className,methodName);
+            String msg = String.format("%s->%s", className, methodName);
             System.out.println(msg);
+        }
+    }
+
+    public void func1() {
+        // 获取当前线程的堆栈
+        for (StackTraceElement i : Thread.currentThread().getStackTrace()) {
+            System.out.println(i.toString());
         }
     }
 

@@ -1,7 +1,8 @@
-package com.base.gzip;
+package com.study01.gzip;
 
 import com.base.DataStruct.bytes.DataFormatUtil;
-import com.study01.file_io.FileUtils;
+import com.base.Serializable.protobuf.util.FileUtils;
+
 
 import java.nio.charset.StandardCharsets;
 

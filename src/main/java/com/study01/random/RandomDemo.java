@@ -42,27 +42,4 @@ public class RandomDemo {
         byte[] bytes = new byte[16];
         random.nextBytes(bytes);
     }
-
-    public static File getNextCodePath(File targetDir, String packageName) {
-        SecureRandom random = new SecureRandom();
-        byte[] bytes = new byte[16];
-        File firstLevelDir;
-        do {
-            random.nextBytes(bytes);
-            String firstLevelDirName = RANDOM_DIR_PREFIX
-                    + Base64.encodeToString(bytes, Base64.URL_SAFE | Base64.NO_WRAP);
-            firstLevelDir = new File(targetDir, firstLevelDirName);
-        } while (firstLevelDir.exists());
-
-        random.nextBytes(bytes);
-        String dirName = packageName + RANDOM_CODEPATH_PREFIX + Base64.encodeToString(bytes,
-                Base64.URL_SAFE | Base64.NO_WRAP);
-        final File result = new File(firstLevelDir, dirName);
-        if (DEBUG && !Objects.equals(tryParsePackageName(result.getName()), packageName)) {
-            throw new RuntimeException(
-                    "codepath is off: " + result.getName() + " (" + packageName + ")");
-        }
-        return result;
-    }
-
 }

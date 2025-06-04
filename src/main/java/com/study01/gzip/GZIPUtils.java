@@ -1,4 +1,4 @@
-package com.base.gzip;
+package com.study01.gzip;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
